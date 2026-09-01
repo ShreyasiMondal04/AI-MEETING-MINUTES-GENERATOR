@@ -1,0 +1,18 @@
+Speaker 1: Hi, let's start our meeting. Today we need to discuss the progress of the new university website.
+Speaker 2: Sure. I've completed the homepage design and most of the navigation section.
+Speaker 1: That's good. Are all the pages connected properly?
+Speaker 2: Not yet. The admission and contact pages are still under development.
+Speaker 1: What is causing the delay?
+Speaker 2: I'm waiting for the updated admission information from the documentation team.
+Speaker 1: Okay. I'll contact them today and ask them to send the information by tomorrow.
+Speaker 2: That would help. Once I receive it, I can complete the admission page.
+Speaker 1: How much time will you need after receiving the information?
+Speaker 2: Approximately two days.
+Speaker 1: So can you finish both the admission and contact pages by Friday?
+Speaker 2: Yes, I should be able to finish them by Friday evening.
+Speaker 1: Great. We also need to test the website on mobile devices.
+Speaker 2: I'll handle the responsive testing after completing the pages.
+Speaker 1: Perfect. I'll review the completed website on Monday.
+Speaker 2: Sounds good. I'll send you the updated version by Friday evening.
+Speaker 1: Alright, that's all for today. Thank you.
+Speaker 2: Thank you.
