@@ -1,1 +1,20 @@
- Good morning, let's discuss the progress of our AI meeting mini generator project. Good morning, I have completed the initial setup of the Whisper Space to Stick environment. Great, were you able to test it with an audio file? Yes, I tested it with the short meeting recording and it successfully generated a transcript. I still need to check the accuracy and calculate the word error rate. Okay, what about the speaker directorial model? That part has not been completed yet. We need to integrate PineNot Audio and test whether it can correctly identify the different speakers. We should prioritize that. Can you start working on the directorial model today? Yes, I will start today. I should be able to complete the initial implementation by Thursday. Perfect, I will work on the backend and fronted integration while you work on diorization. Sounds good. Do you also need sample meeting recording for testing? Yes, let's create at least three short meeting recordings with two or three speakers. We will use them for testing the complete pipeline. Okay, I record one sample meeting tomorrow. Great, once we have the recordings, we will test transcription first, then diorization and finally summarization. And after that, we can compare the generated minutes without manually prepared reference minutes. Exactly, let's target the first complete prototype by next week. Agreed, I will send you the dior additions, great result by Thursday. Perfect, let's proceed with that plan.
+[0.00 - 6.00] Good morning, let's discuss the progress of our AI meeting mini generator project.
+[6.00 - 13.00] Good morning, I have completed the initial setup of the Whisper Space to Stick environment.
+[13.00 - 16.00] Great, were you able to test it with an audio file?
+[16.00 - 23.00] Yes, I tested it with the short meeting recording and it successfully generated a transcript.
+[23.00 - 29.00] I still need to check the accuracy and calculate the word error rate.
+[29.00 - 32.00] Okay, what about the speaker directorial model?
+[32.00 - 35.00] That part has not been completed yet.
+[35.00 - 42.00] We need to integrate PineNot Audio and test whether it can correctly identify the different speakers.
+[42.00 - 47.00] We should prioritize that. Can you start working on the directorial model today?
+[47.00 - 54.00] Yes, I will start today. I should be able to complete the initial implementation by Thursday.
+[54.00 - 58.00] Perfect. I will work on the backend and fronted integration.
+[58.00 - 66.00] Why you work on diarization? Sounds good. Do you also need sample meeting recording for testing?
+[66.00 - 71.00] Yes, let's create at least three short meeting recordings with two or three speakers.
+[71.00 - 75.00] We will use them for testing the complete pipeline.
+[75.00 - 79.00] Okay, I record one sample meeting tomorrow. Great.
+[79.00 - 85.00] Once we have the recordings, we will test transcription first, then diarization and finally summarization.
+[85.00 - 91.00] And after that, we can compare the generated minutes without manually prepared reference minutes.
+[91.00 - 95.00] Exactly. Let's target the first complete prototype by next week.
+[95.00 - 100.00] Agreed. I will send you the diarization's result by Thursday.
+[100.00 - 103.00] Perfect. Let's proceed with that plan.
