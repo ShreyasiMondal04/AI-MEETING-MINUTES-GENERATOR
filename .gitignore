@@ -10,12 +10,7 @@ __pycache__/
 .env
 .env.*
 
-# Audio files
-data/raw_audio/*
-*.wav
-*.mp3
-*.m4a
-*.flac
+
 
 # AI models
 models/
