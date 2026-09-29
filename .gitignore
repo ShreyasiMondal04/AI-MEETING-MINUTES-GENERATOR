@@ -1,6 +1,7 @@
 # Virtual environments
 venv/
 .venv/
+.venv312/
 
 # Python cache
 __pycache__/
@@ -10,8 +11,6 @@ __pycache__/
 .env
 .env.*
 
-
-
 # AI models
 models/
 
@@ -20,7 +19,7 @@ models/
 .idea/
 
 # OS files
-.DS_Store 
+.DS_Store
 Thumbs.db
 
 # Logs
