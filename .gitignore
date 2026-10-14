@@ -23,9 +23,13 @@ models/
 Thumbs.db
 
 # Logs
+<<<<<<< HEAD
 *.log
 # Media files
 *.wav
 *.mpeg
 *.mp3
 *.m4a
+=======
+*.log
+>>>>>>> origin/main

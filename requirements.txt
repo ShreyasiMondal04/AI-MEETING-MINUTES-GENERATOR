@@ -1,0 +1,8 @@
+openai-whisper
+pyannote.audio
+pydub
+torch
+torchaudio
+fastapi
+uvicorn
+python-multipart
