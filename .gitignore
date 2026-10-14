@@ -1,0 +1,31 @@
+# Virtual environments
+venv/
+.venv/
+.venv312/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables / API keys
+.env
+.env.*
+
+# AI models
+models/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+# Media files
+*.wav
+*.mpeg
+*.mp3
+*.m4a

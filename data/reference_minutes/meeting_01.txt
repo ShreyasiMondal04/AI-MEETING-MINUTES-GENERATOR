@@ -1,0 +1,18 @@
+Sample Meeting — Project Progress Discussion
+Speaker 1: Good morning. Let's discuss the progress of our AI Meeting Minutes Generator project.
+Speaker 2: Good morning. I've completed the initial setup of the Whisper speech-to-text environment.
+Speaker 1: Great. Were you able to test it with an audio file?
+Speaker 2: Yes. I tested it with a short meeting recording, and it successfully generated a transcript. I still need to check the accuracy and calculate the Word Error Rate.
+Speaker 1: Okay. What about the speaker diarization module?
+Speaker 2: That part hasn't been completed yet. We need to integrate pyannote.audio and test whether it can correctly identify different speakers.
+Speaker 1: We should prioritize that. Can you start working on the diarization module today?
+Speaker 2: Yes, I'll start today. I should be able to complete the initial implementation by Thursday.
+Speaker 1: Perfect. I'll work on the backend and frontend integration while you work on diarization.
+Speaker 2: Sounds good. Do we also need sample meeting recordings for testing?
+Speaker 1: Yes. Let's create at least three short meeting recordings with two or three speakers. We'll use them for testing the complete pipeline.
+Speaker 2: Okay. I'll record one sample meeting tomorrow.
+Speaker 1: Great. Once we have the recordings, we'll test transcription first, then diarization, and finally summarization.
+Speaker 2: And after that, we can compare the generated minutes with our manually prepared reference minutes.
+Speaker 1: Exactly. Let's target the first complete prototype by next week.
+Speaker 2: Agreed. I'll send you the diarization results by Thursday.
+Speaker 1: Perfect. Let's proceed with that plan.

@@ -1,0 +1,107 @@
+{
+  "evaluation_method": "Semantic Text-Aligned Turn Matching",
+  "total_evaluated_segments": 20,
+  "correct_segments": 13,
+  "mismatched_segments": 7,
+  "turn_accuracy_percent": 65.0,
+  "turn_error_rate_percent": 35.0,
+  "total_speech_time_seconds": 103.0,
+  "correct_speech_time_seconds": 67.0,
+  "time_accuracy_percent": 65.05,
+  "time_error_rate_percent": 34.95,
+  "speaker_permutation_check": {
+    "pipeline_matches": 13,
+    "optimal_matches": 13,
+    "is_optimal": true,
+    "optimal_mapping": {
+      "SPEAKER_00": "Speaker 1",
+      "SPEAKER_01": "Speaker 2"
+    }
+  },
+  "mismatches": [
+    {
+      "segment_id": 3,
+      "start": 13.0,
+      "end": 16.0,
+      "duration": 3.0,
+      "timestamp": "[00:00:13 - 00:00:16]",
+      "reference_speaker": "Speaker 1",
+      "hypothesis_speaker": "Speaker 2",
+      "raw_speaker": "SPEAKER_01",
+      "error_type": "Acoustic Cluster Confusion / Speaker Merging (pyannote error)",
+      "text": "Great, were you able to test it with an audio file?"
+    },
+    {
+      "segment_id": 6,
+      "start": 29.0,
+      "end": 32.0,
+      "duration": 3.0,
+      "timestamp": "[00:00:29 - 00:00:32]",
+      "reference_speaker": "Speaker 1",
+      "hypothesis_speaker": "Speaker 2",
+      "raw_speaker": "SPEAKER_01",
+      "error_type": "Acoustic Cluster Confusion / Speaker Merging (pyannote error)",
+      "text": "Okay, what about the speaker directorial model?"
+    },
+    {
+      "segment_id": 10,
+      "start": 47.0,
+      "end": 54.0,
+      "duration": 7.0,
+      "timestamp": "[00:00:47 - 00:00:54]",
+      "reference_speaker": "Speaker 2",
+      "hypothesis_speaker": "Speaker 1",
+      "raw_speaker": "SPEAKER_00",
+      "error_type": "Acoustic Cluster Confusion / Speaker Merging (pyannote error)",
+      "text": "Yes, I will start today. I should be able to complete the initial implementation by Thursday."
+    },
+    {
+      "segment_id": 12,
+      "start": 58.0,
+      "end": 66.0,
+      "duration": 8.0,
+      "timestamp": "[00:00:58 - 00:01:06]",
+      "reference_speaker": "Speaker 2",
+      "hypothesis_speaker": "Speaker 1",
+      "raw_speaker": "SPEAKER_00",
+      "error_type": "Acoustic Cluster Confusion / Speaker Merging (pyannote error)",
+      "text": "Why you work on diarization? Sounds good. Do you also need sample meeting recording for testing?"
+    },
+    {
+      "segment_id": 15,
+      "start": 75.0,
+      "end": 79.0,
+      "duration": 4.0,
+      "timestamp": "[00:01:15 - 00:01:19]",
+      "reference_speaker": "Speaker 2",
+      "hypothesis_speaker": "Speaker 1",
+      "raw_speaker": "SPEAKER_00",
+      "error_type": "Acoustic Cluster Confusion / Speaker Merging (pyannote error)",
+      "text": "Okay, I record one sample meeting tomorrow. Great."
+    },
+    {
+      "segment_id": 17,
+      "start": 85.0,
+      "end": 91.0,
+      "duration": 6.0,
+      "timestamp": "[00:01:25 - 00:01:31]",
+      "reference_speaker": "Speaker 2",
+      "hypothesis_speaker": "Speaker 1",
+      "raw_speaker": "SPEAKER_00",
+      "error_type": "Acoustic Cluster Confusion / Speaker Merging (pyannote error)",
+      "text": "And after that, we can compare the generated minutes without manually prepared reference minutes."
+    },
+    {
+      "segment_id": 19,
+      "start": 95.0,
+      "end": 100.0,
+      "duration": 5.0,
+      "timestamp": "[00:01:35 - 00:01:40]",
+      "reference_speaker": "Speaker 2",
+      "hypothesis_speaker": "Speaker 1",
+      "raw_speaker": "SPEAKER_00",
+      "error_type": "Acoustic Cluster Confusion / Speaker Merging (pyannote error)",
+      "text": "Agreed. I will send you the diarization's result by Thursday."
+    }
+  ]
+}
