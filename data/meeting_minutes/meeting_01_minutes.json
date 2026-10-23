@@ -1,0 +1,210 @@
+{
+    "summary": "Good morning, I have completed the initial setup of the Whisper Space to Stick environment. Yes, I tested it with the short meeting recording and it successfully generated a transcript. I still need to check the accuracy and calculate the word error rate. That part has not been completed yet. We need to integrate PineNot Audio and test whether it can correctly identify the different speakers.",
+    "key_points": [
+        "Good morning, I have completed the initial setup of the Whisper Space to Stick environment.",
+        "Yes, I tested it with the short meeting recording and it successfully generated a transcript.",
+        "I still need to check the accuracy and calculate the word error rate.",
+        "Okay, what about the speaker directorial model?",
+        "That part has not been completed yet.",
+        "We need to integrate PineNot Audio and test whether it can correctly identify the different speakers.",
+        "I will work on the backend and fronted integration.",
+        "Why you work on diarization?",
+        "Do you also need sample meeting recording for testing?",
+        "Yes, let's create at least three short meeting recordings with two or three speakers.",
+        "We will use them for testing the complete pipeline.",
+        "Once we have the recordings, we will test transcription first, then diarization and finally summarization.",
+        "And after that, we can compare the generated minutes without manually prepared reference minutes.",
+        "Let's target the first complete prototype by next week.",
+        "I will send you the diarization's result by Thursday."
+    ],
+    "decisions": [
+        "We will use them for testing the complete pipeline.",
+        "Let's target the first complete prototype by next week."
+    ],
+    "action_items": [
+        {
+            "task": "I still need to check the accuracy and calculate the word error rate.",
+            "responsible_person": "Not identified",
+            "deadline": "Not identified"
+        },
+        {
+            "task": "We need to integrate PineNot Audio and test whether it can correctly identify the different speakers.",
+            "responsible_person": "Not identified",
+            "deadline": "Not identified"
+        },
+        {
+            "task": "We should prioritize that.",
+            "responsible_person": "Not identified",
+            "deadline": "Not identified"
+        },
+        {
+            "task": "Can you start working on the directorial model today?",
+            "responsible_person": "Not identified",
+            "deadline": "today"
+        },
+        {
+            "task": "Yes, I will start today.",
+            "responsible_person": "Speaker 1",
+            "deadline": "today"
+        },
+        {
+            "task": "I should be able to complete the initial implementation by Thursday.",
+            "responsible_person": "Not identified",
+            "deadline": "by Thursday"
+        },
+        {
+            "task": "I will work on the backend and fronted integration.",
+            "responsible_person": "Speaker 1",
+            "deadline": "Not identified"
+        },
+        {
+            "task": "Yes, let's create at least three short meeting recordings with two or three speakers.",
+            "responsible_person": "Not identified",
+            "deadline": "Not identified"
+        },
+        {
+            "task": "We will use them for testing the complete pipeline.",
+            "responsible_person": "Not identified",
+            "deadline": "Not identified"
+        },
+        {
+            "task": "Okay, I record one sample meeting tomorrow.",
+            "responsible_person": "Not identified",
+            "deadline": "tomorrow"
+        },
+        {
+            "task": "Once we have the recordings, we will test transcription first, then diarization and finally summarization.",
+            "responsible_person": "Not identified",
+            "deadline": "Not identified"
+        },
+        {
+            "task": "Let's target the first complete prototype by next week.",
+            "responsible_person": "Not identified",
+            "deadline": "by next week"
+        },
+        {
+            "task": "I will send you the diarization's result by Thursday.",
+            "responsible_person": "Speaker 1",
+            "deadline": "by Thursday"
+        }
+    ],
+    "speaker_contributions": [
+        {
+            "speaker": "Speaker 1",
+            "text": "Good morning, let's discuss the progress of our AI meeting mini generator project."
+        },
+        {
+            "speaker": "Speaker 2",
+            "text": "Good morning, I have completed the initial setup of the Whisper Space to Stick environment."
+        },
+        {
+            "speaker": "Speaker 2",
+            "text": "Great, were you able to test it with an audio file?"
+        },
+        {
+            "speaker": "Speaker 2",
+            "text": "Yes, I tested it with the short meeting recording and it successfully generated a transcript."
+        },
+        {
+            "speaker": "Speaker 2",
+            "text": "I still need to check the accuracy and calculate the word error rate."
+        },
+        {
+            "speaker": "Speaker 2",
+            "text": "Okay, what about the speaker directorial model?"
+        },
+        {
+            "speaker": "Speaker 2",
+            "text": "That part has not been completed yet."
+        },
+        {
+            "speaker": "Speaker 2",
+            "text": "We need to integrate PineNot Audio and test whether it can correctly identify the different speakers."
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "We should prioritize that."
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "Can you start working on the directorial model today?"
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "Yes, I will start today."
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "I should be able to complete the initial implementation by Thursday."
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "Perfect."
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "I will work on the backend and fronted integration."
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "Why you work on diarization?"
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "Sounds good."
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "Do you also need sample meeting recording for testing?"
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "Yes, let's create at least three short meeting recordings with two or three speakers."
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "We will use them for testing the complete pipeline."
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "Okay, I record one sample meeting tomorrow."
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "Great."
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "Once we have the recordings, we will test transcription first, then diarization and finally summarization."
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "And after that, we can compare the generated minutes without manually prepared reference minutes."
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "Exactly."
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "Let's target the first complete prototype by next week."
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "Agreed."
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "I will send you the diarization's result by Thursday."
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "Perfect."
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "Let's proceed with that plan."
+        }
+    ],
+    "note": "Rule-based draft. Verify the summary, decisions, task ownership, and deadlines against the original transcript. Speaker labels may contain diarization errors."
+}
