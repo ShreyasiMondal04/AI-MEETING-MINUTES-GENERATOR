@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MinuteAI — Executive AI Meeting Minutes Generator</title>
+    <meta name="description" content="State-of-the-art AI system for automated meeting transcription, speaker diarization, topic extraction, and executive minutes generation.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body class="dark-theme">
+    <!-- Background Gradient Glows -->
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+
+    <div class="app-layout">
+        <!-- Top Navigation -->
+        <header class="navbar">
+            <div class="nav-brand">
+                <div class="brand-logo-icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/>
+                        <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+                        <line x1="12" x2="12" y1="19" y2="22"/>
+                    </svg>
+                </div>
+                <div class="brand-text">
+                    <span class="brand-title">Minute<span class="gradient-text">AI</span></span>
+                    <span class="brand-subtitle">Executive Intelligence Suite</span>
+                </div>
+            </div>
+
+            <div class="nav-actions">
+                <div class="system-status-pill" id="systemStatus">
+                    <span class="status-dot"></span>
+                    <span class="status-label" id="statusText">System Ready</span>
+                </div>
+
+                <button class="theme-toggle-btn" id="themeToggle" title="Toggle Light/Dark Theme" aria-label="Toggle Theme">
+                    <svg class="sun-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/>
+                    </svg>
+                    <svg class="moon-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/>
+                    </svg>
+                </button>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-badge">
+                <span class="badge-sparkle">✨</span>
+                <span>Automated Meeting Intelligence Pipeline</span>
+            </div>
+            <h1 class="hero-title">
+                Transform Meeting Audio into <span class="gradient-text">Executive Minutes</span>
+            </h1>
+            <p class="hero-subtitle">
+                Powered by OpenAI Whisper, Speaker Diarization, and Advanced NLP to extract actionable decisions, assignees, deadlines, and formatted corporate deliverables.
+            </p>
+
+            <div class="pipeline-feature-tags">
+                <span class="feature-tag">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                    WAV • MP3 • MPEG • M4A
+                </span>
+                <span class="feature-tag">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    Speaker Diarization
+                </span>
+                <span class="feature-tag">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                    Action Items & Deadlines
+                </span>
+                <span class="feature-tag">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+                    PDF • DOCX • JSON • TXT
+                </span>
+            </div>
+        </section>
+
+        <!-- Input & Control Hub -->
+        <section class="control-hub">
+            <div class="hub-grid">
+                <!-- Upload Box -->
+                <div class="hub-card upload-card">
+                    <div class="card-header">
+                        <div class="card-icon upload-icon-bg">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" x2="12" y1="3" y2="15"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h2 class="card-title">Upload Meeting Audio</h2>
+                            <p class="card-desc">Select or drop any audio recording to generate minutes</p>
+                        </div>
+                    </div>
+
+                    <form id="uploadForm" class="upload-form">
+                        <div class="drop-zone" id="dropZone">
+                            <input type="file" id="audioFile" name="file" accept=".wav,.mp3,.mpeg,.m4a,.flac,.ogg" class="file-input">
+                            <div class="drop-zone-content">
+                                <div class="drop-icon">
+                                    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                                        <rect width="18" height="18" x="3" y="3" rx="2" ry="2"/>
+                                        <circle cx="9" cy="9" r="2"/>
+                                        <path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/>
+                                    </svg>
+                                </div>
+                                <p class="drop-main-text">Drag & drop your recording here, or <span class="browse-link">Browse</span></p>
+                                <p class="drop-sub-text">Supported: WAV, MP3, MPEG, M4A, FLAC (Max 100MB)</p>
+                            </div>
+                            <div class="file-chosen-bar" id="fileChosenBar" hidden>
+                                <div class="file-info">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+                                    <span id="selectedFileName">filename.wav</span>
+                                    <span class="file-size-badge" id="selectedFileSize">0 MB</span>
+                                </div>
+                                <button type="button" class="btn-clear-file" id="btnClearFile" title="Remove file">&times;</button>
+                            </div>
+                        </div>
+
+                        <!-- Advanced Settings Accordion -->
+                        <div class="settings-drawer">
+                            <button type="button" class="settings-toggle-btn" id="settingsToggle">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="3"/></svg>
+                                <span>Advanced Pipeline Settings</span>
+                                <span class="arrow-indicator">▼</span>
+                            </button>
+                            <div class="settings-content" id="settingsContent" hidden>
+                                <div class="settings-grid">
+                                    <div class="form-group">
+                                        <label for="whisperModel">Whisper Model:</label>
+                                        <select id="whisperModel" name="whisper_model" class="custom-select">
+                                            <option value="base" selected>Base (Fast & Balanced)</option>
+                                            <option value="tiny">Tiny (Ultra-fast)</option>
+                                            <option value="small">Small (Higher precision)</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="numSpeakers">Expected Speakers:</label>
+                                        <select id="numSpeakers" name="num_speakers" class="custom-select">
+                                            <option value="2" selected>2 Speakers</option>
+                                            <option value="3">3 Speakers</option>
+                                            <option value="4">4 Speakers</option>
+                                            <option value="1">1 Speaker</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="submit" id="generateBtn" class="btn-primary-action">
+                            <span class="btn-text">Generate Meeting Minutes</span>
+                            <span class="btn-icon">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" x2="19" y1="12" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                            </span>
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Instant Demo Selector -->
+                <div class="hub-card demo-card">
+                    <div class="card-header">
+                        <div class="card-icon demo-icon-bg">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polygon points="5 3 19 12 5 21 5 3"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h2 class="card-title">One-Click Demonstration</h2>
+                            <p class="card-desc">Test with preloaded real-world benchmark recordings</p>
+                        </div>
+                    </div>
+
+                    <div class="sample-list">
+                        <!-- Sample 1 -->
+                        <div class="sample-item-card" data-sample-id="meeting_01">
+                            <div class="sample-item-header">
+                                <span class="sample-tag">Sample Meeting 1</span>
+                                <span class="sample-duration">⏱ 01:43</span>
+                            </div>
+                            <h3 class="sample-name">AI Meeting Minutes Generator Project Sprint</h3>
+                            <p class="sample-details">Technical sync on Whisper STT, pyannote diarization, WER accuracy, and backend integration.</p>
+                            <button type="button" class="btn-sample-load" data-sample-id="meeting_01">
+                                <span>Load Meeting 1</span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+                            </button>
+                        </div>
+
+                        <!-- Sample 2 -->
+                        <div class="sample-item-card" data-sample-id="meeting_02">
+                            <div class="sample-item-header">
+                                <span class="sample-tag">Sample Meeting 2</span>
+                                <span class="sample-duration">⏱ 01:16</span>
+                            </div>
+                            <h3 class="sample-name">University Website Redesign & Delivery Sync</h3>
+                            <p class="sample-details">Team review on homepage development, admission pages, responsive mobile testing, and Friday deadlines.</p>
+                            <button type="button" class="btn-sample-load" data-sample-id="meeting_02">
+                                <span>Load Meeting 2</span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pipeline Execution Stepper / Progress Bar -->
+        <section class="stepper-section" id="stepperSection" hidden>
+            <div class="stepper-card">
+                <div class="stepper-header">
+                    <h3 class="stepper-title" id="stepperMessage">Processing Meeting Audio...</h3>
+                    <span class="stepper-percent" id="stepperPercent">20%</span>
+                </div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar-fill" id="progressBarFill" style="width: 20%;"></div>
+                </div>
+                <div class="stepper-stages">
+                    <div class="stage-step active" id="stage1">
+                        <span class="step-num">1</span>
+                        <span class="step-name">Preprocessing</span>
+                    </div>
+                    <div class="stage-step" id="stage2">
+                        <span class="step-num">2</span>
+                        <span class="step-name">Whisper STT</span>
+                    </div>
+                    <div class="stage-step" id="stage3">
+                        <span class="step-num">3</span>
+                        <span class="step-name">Diarization</span>
+                    </div>
+                    <div class="stage-step" id="stage4">
+                        <span class="step-num">4</span>
+                        <span class="step-name">NLP Extraction</span>
+                    </div>
+                    <div class="stage-step" id="stage5">
+                        <span class="step-num">5</span>
+                        <span class="step-name">Document Export</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Results Dashboard Section -->
+        <section class="results-dashboard" id="resultsSection" hidden>
+            <!-- Integrated Audio Player Header Bar -->
+            <div class="audio-player-banner" id="audioPlayerBanner">
+                <div class="player-info">
+                    <span class="player-label">Meeting Audio:</span>
+                    <span class="current-meeting-title" id="currentMeetingTitle">Meeting Recording</span>
+                </div>
+                <div class="custom-audio-controls">
+                    <audio id="meetingAudioPlayer" controls preload="metadata"></audio>
+                </div>
+            </div>
+
+            <!-- Tab Navigation Bar -->
+            <div class="dashboard-tabs">
+                <button class="tab-btn active" data-tab="tabMinutes" id="tabBtnMinutes">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" x2="8" y1="13" y2="13"/><line x1="16" x2="8" y1="17" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                    <span>Executive Minutes</span>
+                </button>
+                <button class="tab-btn" data-tab="tabTranscript" id="tabBtnTranscript">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                    <span>Diarized Transcript</span>
+                    <span class="tab-count-badge" id="transcriptCountBadge">0</span>
+                </button>
+                <button class="tab-btn" data-tab="tabAnalytics" id="tabBtnAnalytics">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" x2="18" y1="20" y2="10"/><line x1="12" x2="12" y1="20" y2="4"/><line x1="6" x2="6" y1="20" y2="14"/></svg>
+                    <span>Participation Analytics</span>
+                </button>
+                <button class="tab-btn" data-tab="tabEvaluation" id="tabBtnEvaluation">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                    <span>Academic Benchmark</span>
+                </button>
+                <button class="tab-btn" data-tab="tabExport" id="tabBtnExport">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+                    <span>Export Center</span>
+                </button>
+            </div>
+
+            <!-- TAB 1: EXECUTIVE MINUTES -->
+            <div class="tab-panel active" id="tabMinutes">
+                <div class="minutes-container">
+                    <!-- Meeting Metadata Card -->
+                    <div class="meta-strip-card">
+                        <div class="meta-item">
+                            <span class="meta-label">Date & Time</span>
+                            <span class="meta-val" id="metaDate">—</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Total Duration</span>
+                            <span class="meta-val" id="metaDuration">—</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Participants</span>
+                            <div class="attendees-pills" id="metaAttendees"></div>
+                        </div>
+                        <div class="meta-item-actions">
+                            <button type="button" class="btn-secondary-sm" id="btnOpenRenameModal">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/></svg>
+                                <span>Rename Speakers</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Executive Overview -->
+                    <div class="dashboard-card highlight-card">
+                        <div class="card-title-row">
+                            <span class="section-icon">📑</span>
+                            <h3 class="section-header-title">Executive Summary</h3>
+                        </div>
+                        <p class="summary-body" id="summaryText"></p>
+                    </div>
+
+                    <!-- Decisions Made -->
+                    <div class="dashboard-card">
+                        <div class="card-title-row">
+                            <span class="section-icon">⚖️</span>
+                            <h3 class="section-header-title">Decisions & Agreements</h3>
+                        </div>
+                        <ul class="decisions-list" id="decisionsList"></ul>
+                    </div>
+
+                    <!-- Action Items Table -->
+                    <div class="dashboard-card">
+                        <div class="card-title-row">
+                            <span class="section-icon">🎯</span>
+                            <h3 class="section-header-title">Action Items & Next Steps</h3>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="action-items-table">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 50px;">Status</th>
+                                        <th>Task Description</th>
+                                        <th style="width: 170px;">Assignee</th>
+                                        <th style="width: 140px;">Deadline</th>
+                                        <th style="width: 100px;">Priority</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="actionItemsTbody"></tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Topics Discussed -->
+                    <div class="dashboard-card">
+                        <div class="card-title-row">
+                            <span class="section-icon">💡</span>
+                            <h3 class="section-header-title">Thematic Discussion Points</h3>
+                        </div>
+                        <div class="topics-grid" id="topicsGrid"></div>
+                    </div>
+
+                    <!-- Notes -->
+                    <div class="dashboard-note-box">
+                        <span class="note-icon">ℹ️</span>
+                        <p id="noteText"></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 2: DIARIZED TRANSCRIPT -->
+            <div class="tab-panel" id="tabTranscript">
+                <div class="transcript-container">
+                    <div class="transcript-toolbar">
+                        <div class="search-box">
+                            <input type="text" id="transcriptSearch" placeholder="Search transcript dialogue..." class="custom-input">
+                        </div>
+                        <div class="filter-box">
+                            <select id="speakerFilter" class="custom-select">
+                                <option value="all">All Speakers</option>
+                            </select>
+                        </div>
+                        <button type="button" class="btn-secondary-sm" id="btnCopyTranscript">
+                            <span>Copy Transcript</span>
+                        </button>
+                    </div>
+
+                    <div class="dialogue-feed" id="dialogueFeed"></div>
+                </div>
+            </div>
+
+            <!-- TAB 3: PARTICIPATION ANALYTICS -->
+            <div class="tab-panel" id="tabAnalytics">
+                <div class="analytics-container">
+                    <div class="dashboard-card">
+                        <h3 class="section-header-title">Speaker Talk-Time Distribution</h3>
+                        <p class="analytics-desc">Proportional duration of active speaking turns across the meeting.</p>
+                        <div class="talk-time-distribution-bar" id="talkTimeBar"></div>
+                    </div>
+
+                    <div class="analytics-cards-grid" id="speakerAnalyticsGrid"></div>
+                </div>
+            </div>
+
+            <!-- TAB 4: ACADEMIC BENCHMARK & EVALUATION -->
+            <div class="tab-panel" id="tabEvaluation">
+                <div class="evaluation-container">
+                    <div class="evaluation-header-card">
+                        <div class="eval-title-block">
+                            <h3 class="section-header-title">Academic Performance & Quality Benchmarks</h3>
+                            <p class="card-desc">Formal evaluation metrics comparing generated meeting minutes against human-annotated ground-truth reference transcripts.</p>
+                        </div>
+                        <button type="button" class="btn-primary-sm" id="btnRunEval">
+                            <span>Re-evaluate Metrics</span>
+                        </button>
+                    </div>
+
+                    <!-- Metrics Scorecards Grid -->
+                    <div class="scorecards-grid">
+                        <div class="metric-card">
+                            <div class="metric-header">
+                                <span class="metric-name">Word Error Rate (WER)</span>
+                                <span class="metric-badge" id="werBadge">Speech-to-Text</span>
+                            </div>
+                            <div class="metric-value" id="werValue">—</div>
+                            <div class="metric-sub" id="werSub">Word Accuracy: —</div>
+                        </div>
+
+                        <div class="metric-card">
+                            <div class="metric-header">
+                                <span class="metric-name">Diarization Accuracy</span>
+                                <span class="metric-badge" id="derBadge">Speaker Identification</span>
+                            </div>
+                            <div class="metric-value" id="derValue">—</div>
+                            <div class="metric-sub" id="derSub">Turn Attribution: —</div>
+                        </div>
+
+                        <div class="metric-card">
+                            <div class="metric-header">
+                                <span class="metric-name">ROUGE-1 F1 Score</span>
+                                <span class="metric-badge" id="rougeBadge">Summarization</span>
+                            </div>
+                            <div class="metric-value" id="rouge1Value">—</div>
+                            <div class="metric-sub" id="rougeSub">ROUGE-L F1: —</div>
+                        </div>
+
+                        <div class="metric-card">
+                            <div class="metric-header">
+                                <span class="metric-name">BLEU Translation Score</span>
+                                <span class="metric-badge" id="bleuBadge">NLP Quality</span>
+                            </div>
+                            <div class="metric-value" id="bleuValue">—</div>
+                            <div class="metric-sub" id="bleuSub">N-Gram Precision: —</div>
+                        </div>
+                    </div>
+
+                    <!-- Theoretical Formula & Methodology Explanation -->
+                    <div class="dashboard-card">
+                        <h3 class="section-header-title">Evaluation Formula & Methodology</h3>
+                        <div class="math-explainer-grid">
+                            <div class="math-card">
+                                <h4>Word Error Rate (WER)</h4>
+                                <div class="math-formula">$$\text{WER} = \frac{S + D + I}{N}$$</div>
+                                <p>Measures insertion ($I$), deletion ($D$), and substitution ($S$) errors across reference word count ($N$).</p>
+                            </div>
+                            <div class="math-card">
+                                <h4>Diarization Error Rate (DER)</h4>
+                                <div class="math-formula">$$\text{DER} = \frac{\text{Miss} + \text{FalseAlarm} + \text{Confusion}}{\text{Total Vocal Time}}$$</div>
+                                <p>Quantifies speaker segmentation and attribution accuracy with optimal Hungarian permutation matching.</p>
+                            </div>
+                            <div class="math-card">
+                                <h4>ROUGE & BLEU</h4>
+                                <div class="math-formula">$$\text{ROUGE-N} = \frac{\sum \text{Count}_{\text{match}}(\text{gram}_n)}{\sum \text{Count}(\text{gram}_n)}$$</div>
+                                <p>Measures semantic overlap and recall against human-written meeting minutes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 5: EXPORT & DOWNLOAD CENTER -->
+            <div class="tab-panel" id="tabExport">
+                <div class="export-container">
+                    <h3 class="section-header-title">Download Formatted Deliverables</h3>
+                    <p class="export-desc">Export the finalized meeting minutes in corporate, academic, and developer-friendly formats.</p>
+
+                    <div class="export-cards-grid">
+                        <!-- PDF -->
+                        <div class="export-card">
+                            <div class="export-icon-box pdf-box">
+                                <span>PDF</span>
+                            </div>
+                            <div class="export-info">
+                                <h4 class="export-name">Executive PDF Report</h4>
+                                <p class="export-details">Styled corporate report with title block, tables, decisions, and speaker dialog appendix.</p>
+                            </div>
+                            <a id="btnDownloadPdf" href="#" class="btn-download" download>Download PDF</a>
+                        </div>
+
+                        <!-- DOCX -->
+                        <div class="export-card">
+                            <div class="export-icon-box docx-box">
+                                <span>DOCX</span>
+                            </div>
+                            <div class="export-info">
+                                <h4 class="export-name">Microsoft Word Document</h4>
+                                <p class="export-details">Editable document with formatted tables, bulleted agendas, and styled headings.</p>
+                            </div>
+                            <a id="btnDownloadDocx" href="#" class="btn-download" download>Download Word</a>
+                        </div>
+
+                        <!-- Markdown -->
+                        <div class="export-card">
+                            <div class="export-icon-box md-box">
+                                <span>MD</span>
+                            </div>
+                            <div class="export-info">
+                                <h4 class="export-name">GitHub Markdown</h4>
+                                <p class="export-details">Standard GFM markdown formatted for GitHub repositories and documentation sites.</p>
+                            </div>
+                            <a id="btnDownloadMd" href="#" class="btn-download" download>Download Markdown</a>
+                        </div>
+
+                        <!-- TXT -->
+                        <div class="export-card">
+                            <div class="export-icon-box txt-box">
+                                <span>TXT</span>
+                            </div>
+                            <div class="export-info">
+                                <h4 class="export-name">Plain Text Minutes</h4>
+                                <p class="export-details">Universal ASCII plain text summary for lightweight archiving and email dispatches.</p>
+                            </div>
+                            <a id="btnDownloadTxt" href="#" class="btn-download" download>Download Text</a>
+                        </div>
+
+                        <!-- JSON -->
+                        <div class="export-card">
+                            <div class="export-icon-box json-box">
+                                <span>JSON</span>
+                            </div>
+                            <div class="export-info">
+                                <h4 class="export-name">Structured JSON Payload</h4>
+                                <p class="export-details">Machine-readable data containing timestamps, confidence scores, and action items.</p>
+                            </div>
+                            <a id="btnDownloadJson" href="#" class="btn-download" download>Download JSON</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="app-footer">
+            <div class="footer-content">
+                <p>AI Meeting Minutes Generator • Group Engineering Project</p>
+                <p class="team-credit">Team: Annyasha Bhul • Subhadip Santra • Sonali Jana • Shreyasi Mondal</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Rename Speakers Modal -->
+    <div class="modal-overlay" id="renameModal" hidden>
+        <div class="modal-card">
+            <div class="modal-header">
+                <h3>Rename Meeting Speakers</h3>
+                <button type="button" class="btn-modal-close" id="btnCloseRenameModal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p class="modal-desc">Assign real participant names (e.g., "Alice", "Bob") to speaker labels. All transcripts and action item ownerships will update dynamically.</p>
+                <div class="rename-fields-list" id="renameFieldsList"></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn-secondary" id="btnCancelRename">Cancel</button>
+                <button type="button" class="btn-primary" id="btnSaveRename">Save & Update Minutes</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification Container -->
+    <div class="toast-container" id="toastContainer"></div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

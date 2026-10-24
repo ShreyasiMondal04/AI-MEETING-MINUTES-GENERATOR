@@ -7,8 +7,8 @@
     "timestamp": "[00:00:00 - 00:00:06]",
     "speaker": "Speaker 1",
     "raw_speaker": "SPEAKER_00",
-    "secondary_speaker": null,
-    "confidence": 0.71,
+    "secondary_speaker": "Speaker 2",
+    "confidence": 0.62,
     "text": "Good morning, let's discuss the progress of our AI meeting mini generator project."
   },
   {
@@ -17,10 +17,10 @@
     "end": 13.0,
     "duration": 7.0,
     "timestamp": "[00:00:06 - 00:00:13]",
-    "speaker": "Speaker 2",
-    "raw_speaker": "SPEAKER_01",
+    "speaker": "Speaker 1",
+    "raw_speaker": "SPEAKER_00",
     "secondary_speaker": null,
-    "confidence": 0.92,
+    "confidence": 1.0,
     "text": "Good morning, I have completed the initial setup of the Whisper Space to Stick environment."
   },
   {
@@ -31,8 +31,8 @@
     "timestamp": "[00:00:13 - 00:00:16]",
     "speaker": "Speaker 2",
     "raw_speaker": "SPEAKER_01",
-    "secondary_speaker": null,
-    "confidence": 0.9,
+    "secondary_speaker": "Speaker 1",
+    "confidence": 0.75,
     "text": "Great, were you able to test it with an audio file?"
   },
   {
@@ -41,10 +41,10 @@
     "end": 23.0,
     "duration": 7.0,
     "timestamp": "[00:00:16 - 00:00:23]",
-    "speaker": "Speaker 2",
-    "raw_speaker": "SPEAKER_01",
+    "speaker": "Speaker 1",
+    "raw_speaker": "SPEAKER_00",
     "secondary_speaker": null,
-    "confidence": 0.98,
+    "confidence": 1.0,
     "text": "Yes, I tested it with the short meeting recording and it successfully generated a transcript."
   },
   {
@@ -53,10 +53,10 @@
     "end": 29.0,
     "duration": 6.0,
     "timestamp": "[00:00:23 - 00:00:29]",
-    "speaker": "Speaker 2",
-    "raw_speaker": "SPEAKER_01",
+    "speaker": "Speaker 1",
+    "raw_speaker": "SPEAKER_00",
     "secondary_speaker": null,
-    "confidence": 0.89,
+    "confidence": 1.0,
     "text": "I still need to check the accuracy and calculate the word error rate."
   },
   {
@@ -65,10 +65,10 @@
     "end": 32.0,
     "duration": 3.0,
     "timestamp": "[00:00:29 - 00:00:32]",
-    "speaker": "Speaker 2",
-    "raw_speaker": "SPEAKER_01",
+    "speaker": "Speaker 1",
+    "raw_speaker": "SPEAKER_00",
     "secondary_speaker": null,
-    "confidence": 0.92,
+    "confidence": 1.0,
     "text": "Okay, what about the speaker directorial model?"
   },
   {
@@ -77,10 +77,10 @@
     "end": 35.0,
     "duration": 3.0,
     "timestamp": "[00:00:32 - 00:00:35]",
-    "speaker": "Speaker 2",
-    "raw_speaker": "SPEAKER_01",
+    "speaker": "Speaker 1",
+    "raw_speaker": "SPEAKER_00",
     "secondary_speaker": null,
-    "confidence": 0.88,
+    "confidence": 1.0,
     "text": "That part has not been completed yet."
   },
   {
@@ -89,10 +89,10 @@
     "end": 42.0,
     "duration": 7.0,
     "timestamp": "[00:00:35 - 00:00:42]",
-    "speaker": "Speaker 2",
-    "raw_speaker": "SPEAKER_01",
+    "speaker": "Speaker 1",
+    "raw_speaker": "SPEAKER_00",
     "secondary_speaker": null,
-    "confidence": 0.92,
+    "confidence": 1.0,
     "text": "We need to integrate PineNot Audio and test whether it can correctly identify the different speakers."
   },
   {
@@ -104,7 +104,7 @@
     "speaker": "Speaker 1",
     "raw_speaker": "SPEAKER_00",
     "secondary_speaker": null,
-    "confidence": 0.83,
+    "confidence": 1.0,
     "text": "We should prioritize that. Can you start working on the directorial model today?"
   },
   {
@@ -116,7 +116,7 @@
     "speaker": "Speaker 1",
     "raw_speaker": "SPEAKER_00",
     "secondary_speaker": null,
-    "confidence": 0.92,
+    "confidence": 1.0,
     "text": "Yes, I will start today. I should be able to complete the initial implementation by Thursday."
   },
   {
@@ -128,7 +128,7 @@
     "speaker": "Speaker 1",
     "raw_speaker": "SPEAKER_00",
     "secondary_speaker": null,
-    "confidence": 0.9,
+    "confidence": 1.0,
     "text": "Perfect. I will work on the backend and fronted integration."
   },
   {
@@ -140,7 +140,7 @@
     "speaker": "Speaker 1",
     "raw_speaker": "SPEAKER_00",
     "secondary_speaker": null,
-    "confidence": 0.86,
+    "confidence": 1.0,
     "text": "Why you work on diarization? Sounds good. Do you also need sample meeting recording for testing?"
   },
   {
@@ -149,8 +149,8 @@
     "end": 71.0,
     "duration": 5.0,
     "timestamp": "[00:01:06 - 00:01:11]",
-    "speaker": "Speaker 1",
-    "raw_speaker": "SPEAKER_00",
+    "speaker": "Speaker 2",
+    "raw_speaker": "SPEAKER_01",
     "secondary_speaker": null,
     "confidence": 1.0,
     "text": "Yes, let's create at least three short meeting recordings with two or three speakers."
@@ -161,10 +161,10 @@
     "end": 75.0,
     "duration": 4.0,
     "timestamp": "[00:01:11 - 00:01:15]",
-    "speaker": "Speaker 1",
-    "raw_speaker": "SPEAKER_00",
-    "secondary_speaker": null,
-    "confidence": 0.85,
+    "speaker": "Speaker 2",
+    "raw_speaker": "SPEAKER_01",
+    "secondary_speaker": "Speaker 1",
+    "confidence": 0.62,
     "text": "We will use them for testing the complete pipeline."
   },
   {
@@ -185,10 +185,10 @@
     "end": 85.0,
     "duration": 6.0,
     "timestamp": "[00:01:19 - 00:01:25]",
-    "speaker": "Speaker 1",
-    "raw_speaker": "SPEAKER_00",
-    "secondary_speaker": null,
-    "confidence": 0.91,
+    "speaker": "Speaker 2",
+    "raw_speaker": "SPEAKER_01",
+    "secondary_speaker": "Speaker 1",
+    "confidence": 0.62,
     "text": "Once we have the recordings, we will test transcription first, then diarization and finally summarization."
   },
   {
@@ -200,7 +200,7 @@
     "speaker": "Speaker 1",
     "raw_speaker": "SPEAKER_00",
     "secondary_speaker": null,
-    "confidence": 0.99,
+    "confidence": 1.0,
     "text": "And after that, we can compare the generated minutes without manually prepared reference minutes."
   },
   {
@@ -209,10 +209,10 @@
     "end": 95.0,
     "duration": 4.0,
     "timestamp": "[00:01:31 - 00:01:35]",
-    "speaker": "Speaker 1",
-    "raw_speaker": "SPEAKER_00",
-    "secondary_speaker": null,
-    "confidence": 1.0,
+    "speaker": "Speaker 2",
+    "raw_speaker": "SPEAKER_01",
+    "secondary_speaker": "Speaker 1",
+    "confidence": 0.69,
     "text": "Exactly. Let's target the first complete prototype by next week."
   },
   {
@@ -223,8 +223,8 @@
     "timestamp": "[00:01:35 - 00:01:40]",
     "speaker": "Speaker 1",
     "raw_speaker": "SPEAKER_00",
-    "secondary_speaker": null,
-    "confidence": 0.82,
+    "secondary_speaker": "Speaker 2",
+    "confidence": 0.8,
     "text": "Agreed. I will send you the diarization's result by Thursday."
   },
   {
@@ -236,7 +236,7 @@
     "speaker": "Speaker 1",
     "raw_speaker": "SPEAKER_00",
     "secondary_speaker": null,
-    "confidence": 0.74,
+    "confidence": 1.0,
     "text": "Perfect. Let's proceed with that plan."
   }
 ]

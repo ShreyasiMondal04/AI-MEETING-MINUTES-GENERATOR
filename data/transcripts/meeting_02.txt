@@ -1,18 +1,27 @@
-Speaker 1: Hi, let's start our meeting. Today we need to discuss the progress of the new university website.
-Speaker 2: Sure. I've completed the homepage design and most of the navigation section.
-Speaker 1: That's good. Are all the pages connected properly?
-Speaker 2: Not yet. The admission and contact pages are still under development.
-Speaker 1: What is causing the delay?
-Speaker 2: I'm waiting for the updated admission information from the documentation team.
-Speaker 1: Okay. I'll contact them today and ask them to send the information by tomorrow.
-Speaker 2: That would help. Once I receive it, I can complete the admission page.
-Speaker 1: How much time will you need after receiving the information?
-Speaker 2: Approximately two days.
-Speaker 1: So can you finish both the admission and contact pages by Friday?
-Speaker 2: Yes, I should be able to finish them by Friday evening.
-Speaker 1: Great. We also need to test the website on mobile devices.
-Speaker 2: I'll handle the responsive testing after completing the pages.
-Speaker 1: Perfect. I'll review the completed website on Monday.
-Speaker 2: Sounds good. I'll send you the updated version by Friday evening.
-Speaker 1: Alright, that's all for today. Thank you.
-Speaker 2: Thank you.
+[0.00 - 3.56] Hi, let's start our meeting.
+[3.56 - 7.96] Today we need to discuss the progress of the Neo University website.
+[7.96 - 12.96] Sure, I have completed the homepage design and most of the navigation section.
+[12.96 - 13.96] That's good.
+[13.96 - 17.52] Are all the pages connected properly?
+[17.52 - 18.52] Not yet.
+[18.52 - 22.00] The admission and contact pages are still under development.
+[22.00 - 24.04] What is causing the delay?
+[24.04 - 28.80] I am waiting for the updated admission information from the documentation team.
+[28.80 - 34.72] Okay, I will contact them today and ask them to send the information by tomorrow.
+[34.72 - 35.72] That would help.
+[35.72 - 39.52] Once I receive it, I can complete the admission page.
+[39.52 - 43.64] How much time will you need after receiving the information?
+[43.64 - 46.28] Approximately two days.
+[46.28 - 49.88] So can you finish both the admission and contact pages by Friday?
+[49.88 - 53.72] Yes, I should be able to finish them by Friday evening.
+[53.72 - 54.72] Great.
+[54.72 - 57.60] We also need to test the website on mobile devices.
+[57.60 - 61.52] I will handle the responsive testing after completing the pages.
+[61.52 - 62.52] Perfect.
+[62.52 - 65.84] I will review the completed website on Monday.
+[65.84 - 66.84] Sounds good.
+[66.84 - 70.08] I will send you the updated version by Friday evening.
+[70.08 - 71.08] Alright.
+[71.08 - 73.08] That's all for today.
+[73.08 - 74.08] Thank you.
+[74.08 - 75.08] Thank you.

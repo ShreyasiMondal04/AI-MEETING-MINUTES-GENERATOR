@@ -1,0 +1,17 @@
+{
+  "wer": 0.129,
+  "wer_percentage": "12.90%",
+  "cer": 0.0784,
+  "cer_percentage": "7.84%",
+  "word_accuracy": 0.871,
+  "word_accuracy_percentage": "87.10%",
+  "substitutions": 23,
+  "deletions": 7,
+  "insertions": 2,
+  "hits": 218,
+  "reference_words": 248,
+  "hypothesis_words": 243,
+  "meeting_stem": "meeting_01",
+  "reference_file": "C:\\Users\\HP\\OneDrive\\Desktop\\AI_MEETING_MINUTES_GENERATOR\\AI-MEETING-MINUTES-GENERATOR\\data\\reference_minutes\\meeting_01.txt",
+  "hypothesis_file": "C:\\Users\\HP\\OneDrive\\Desktop\\AI_MEETING_MINUTES_GENERATOR\\AI-MEETING-MINUTES-GENERATOR\\data\\transcripts\\meeting_01.txt"
+}

@@ -1,0 +1,203 @@
+{
+  "evaluation_method": "Semantic Text-Aligned Turn Matching",
+  "total_evaluated_segments": 27,
+  "correct_segments": 12,
+  "mismatched_segments": 15,
+  "turn_accuracy_percent": 44.44,
+  "turn_error_rate_percent": 55.56,
+  "total_speech_time_seconds": 75.08,
+  "correct_speech_time_seconds": 28.76,
+  "time_accuracy_percent": 38.31,
+  "time_error_rate_percent": 61.69,
+  "speaker_permutation_check": {
+    "pipeline_matches": 12,
+    "optimal_matches": 15,
+    "is_optimal": false,
+    "optimal_mapping": {
+      "SPEAKER_00": "Speaker 2",
+      "SPEAKER_01": "Speaker 1"
+    }
+  },
+  "mismatches": [
+    {
+      "segment_id": 2,
+      "start": 3.56,
+      "end": 7.96,
+      "duration": 4.4,
+      "timestamp": "[00:00:04 - 00:00:08]",
+      "reference_speaker": "Speaker 1",
+      "hypothesis_speaker": "Speaker 2",
+      "raw_speaker": "SPEAKER_01",
+      "error_type": "Acoustic Cluster Confusion / Speaker Merging (pyannote error)",
+      "text": "Today we need to discuss the progress of the Neo University website."
+    },
+    {
+      "segment_id": 3,
+      "start": 7.96,
+      "end": 12.96,
+      "duration": 5.0,
+      "timestamp": "[00:00:08 - 00:00:13]",
+      "reference_speaker": "Speaker 2",
+      "hypothesis_speaker": "Speaker 1",
+      "raw_speaker": "SPEAKER_00",
+      "error_type": "Acoustic Cluster Confusion / Speaker Merging (pyannote error)",
+      "text": "Sure, I have completed the homepage design and most of the navigation section."
+    },
+    {
+      "segment_id": 6,
+      "start": 17.52,
+      "end": 18.52,
+      "duration": 1.0,
+      "timestamp": "[00:00:18 - 00:00:19]",
+      "reference_speaker": "Speaker 2",
+      "hypothesis_speaker": "Speaker 1",
+      "raw_speaker": "SPEAKER_00",
+      "error_type": "Acoustic Cluster Confusion / Speaker Merging (pyannote error)",
+      "text": "Not yet."
+    },
+    {
+      "segment_id": 7,
+      "start": 18.52,
+      "end": 22.0,
+      "duration": 3.48,
+      "timestamp": "[00:00:19 - 00:00:22]",
+      "reference_speaker": "Speaker 2",
+      "hypothesis_speaker": "Speaker 1",
+      "raw_speaker": "SPEAKER_00",
+      "error_type": "Whisper Segment Fusion (Multiple Speakers in Interval)",
+      "text": "The admission and contact pages are still under development."
+    },
+    {
+      "segment_id": 8,
+      "start": 22.0,
+      "end": 24.04,
+      "duration": 2.04,
+      "timestamp": "[00:00:22 - 00:00:24]",
+      "reference_speaker": "Speaker 1",
+      "hypothesis_speaker": "Speaker 2",
+      "raw_speaker": "SPEAKER_01",
+      "error_type": "Acoustic Cluster Confusion / Speaker Merging (pyannote error)",
+      "text": "What is causing the delay?"
+    },
+    {
+      "segment_id": 9,
+      "start": 24.04,
+      "end": 28.8,
+      "duration": 4.76,
+      "timestamp": "[00:00:24 - 00:00:29]",
+      "reference_speaker": "Speaker 2",
+      "hypothesis_speaker": "Speaker 1",
+      "raw_speaker": "SPEAKER_00",
+      "error_type": "Acoustic Cluster Confusion / Speaker Merging (pyannote error)",
+      "text": "I am waiting for the updated admission information from the documentation team."
+    },
+    {
+      "segment_id": 11,
+      "start": 34.72,
+      "end": 35.72,
+      "duration": 1.0,
+      "timestamp": "[00:00:35 - 00:00:36]",
+      "reference_speaker": "Speaker 2",
+      "hypothesis_speaker": "Speaker 1",
+      "raw_speaker": "SPEAKER_00",
+      "error_type": "Acoustic Cluster Confusion / Speaker Merging (pyannote error)",
+      "text": "That would help."
+    },
+    {
+      "segment_id": 12,
+      "start": 35.72,
+      "end": 39.52,
+      "duration": 3.8,
+      "timestamp": "[00:00:36 - 00:00:40]",
+      "reference_speaker": "Speaker 2",
+      "hypothesis_speaker": "Speaker 1",
+      "raw_speaker": "SPEAKER_00",
+      "error_type": "Acoustic Cluster Confusion / Speaker Merging (pyannote error)",
+      "text": "Once I receive it, I can complete the admission page."
+    },
+    {
+      "segment_id": 14,
+      "start": 43.64,
+      "end": 46.28,
+      "duration": 2.64,
+      "timestamp": "[00:00:44 - 00:00:46]",
+      "reference_speaker": "Speaker 2",
+      "hypothesis_speaker": "Speaker 1",
+      "raw_speaker": "SPEAKER_00",
+      "error_type": "Acoustic Cluster Confusion / Speaker Merging (pyannote error)",
+      "text": "Approximately two days."
+    },
+    {
+      "segment_id": 16,
+      "start": 49.88,
+      "end": 53.72,
+      "duration": 3.84,
+      "timestamp": "[00:00:50 - 00:00:54]",
+      "reference_speaker": "Speaker 2",
+      "hypothesis_speaker": "Speaker 1",
+      "raw_speaker": "SPEAKER_00",
+      "error_type": "Acoustic Cluster Confusion / Speaker Merging (pyannote error)",
+      "text": "Yes, I should be able to finish them by Friday evening."
+    },
+    {
+      "segment_id": 18,
+      "start": 54.72,
+      "end": 57.6,
+      "duration": 2.88,
+      "timestamp": "[00:00:55 - 00:00:58]",
+      "reference_speaker": "Speaker 1",
+      "hypothesis_speaker": "Speaker 2",
+      "raw_speaker": "SPEAKER_01",
+      "error_type": "Whisper Segment Fusion (Multiple Speakers in Interval)",
+      "text": "We also need to test the website on mobile devices."
+    },
+    {
+      "segment_id": 19,
+      "start": 57.6,
+      "end": 61.52,
+      "duration": 3.92,
+      "timestamp": "[00:00:58 - 00:01:02]",
+      "reference_speaker": "Speaker 2",
+      "hypothesis_speaker": "Speaker 1",
+      "raw_speaker": "SPEAKER_00",
+      "error_type": "Acoustic Cluster Confusion / Speaker Merging (pyannote error)",
+      "text": "I will handle the responsive testing after completing the pages."
+    },
+    {
+      "segment_id": 21,
+      "start": 62.52,
+      "end": 65.84,
+      "duration": 3.32,
+      "timestamp": "[00:01:03 - 00:01:06]",
+      "reference_speaker": "Speaker 1",
+      "hypothesis_speaker": "Speaker 2",
+      "raw_speaker": "SPEAKER_01",
+      "error_type": "Acoustic Cluster Confusion / Speaker Merging (pyannote error)",
+      "text": "I will review the completed website on Monday."
+    },
+    {
+      "segment_id": 22,
+      "start": 65.84,
+      "end": 66.84,
+      "duration": 1.0,
+      "timestamp": "[00:01:06 - 00:01:07]",
+      "reference_speaker": "Speaker 2",
+      "hypothesis_speaker": "Speaker 1",
+      "raw_speaker": "SPEAKER_00",
+      "error_type": "Whisper Segment Fusion (Multiple Speakers in Interval)",
+      "text": "Sounds good."
+    },
+    {
+      "segment_id": 23,
+      "start": 66.84,
+      "end": 70.08,
+      "duration": 3.24,
+      "timestamp": "[00:01:07 - 00:01:10]",
+      "reference_speaker": "Speaker 2",
+      "hypothesis_speaker": "Speaker 1",
+      "raw_speaker": "SPEAKER_00",
+      "error_type": "Acoustic Cluster Confusion / Speaker Merging (pyannote error)",
+      "text": "I will send you the updated version by Friday evening."
+    }
+  ]
+}

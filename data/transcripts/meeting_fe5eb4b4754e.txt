@@ -1,0 +1,27 @@
+[0.00 - 3.56] Hi, let's start our meeting.
+[3.56 - 7.96] Today we need to discuss the progress of the Neo University website.
+[7.96 - 12.96] Sure, I have completed the homepage design and most of the navigation section.
+[12.96 - 13.96] That's good.
+[13.96 - 17.52] Are all the pages connected properly?
+[17.52 - 18.52] Not yet.
+[18.52 - 22.00] The admission and contact pages are still under development.
+[22.00 - 24.04] What is causing the delay?
+[24.04 - 28.80] I am waiting for the updated admission information from the documentation team.
+[28.80 - 34.72] Okay, I will contact them today and ask them to send the information by tomorrow.
+[34.72 - 35.72] That would help.
+[35.72 - 39.52] Once I receive it, I can complete the admission page.
+[39.52 - 43.64] How much time will you need after receiving the information?
+[43.64 - 46.28] Approximately two days.
+[46.28 - 49.88] So can you finish both the admission and contact pages by Friday?
+[49.88 - 53.72] Yes, I should be able to finish them by Friday evening.
+[53.72 - 54.72] Great.
+[54.72 - 57.60] We also need to test the website on mobile devices.
+[57.60 - 61.52] I will handle the responsive testing after completing the pages.
+[61.52 - 62.52] Perfect.
+[62.52 - 65.92] I will review the completed website on Monday.
+[65.92 - 66.92] Sounds good.
+[66.92 - 69.96] I will send you the updated version by Friday evening.
+[69.96 - 70.96] Alright.
+[70.96 - 73.44] That's all for today.
+[73.44 - 74.44] Thank you.
+[74.44 - 75.44] Thank you.

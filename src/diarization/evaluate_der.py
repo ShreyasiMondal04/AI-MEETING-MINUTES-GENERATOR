@@ -310,6 +310,8 @@ def run_evaluation(meeting_stem: str = "meeting_01"):
     print(f"[OK] Hypothesis RTTM saved to: {hyp_rttm}")
     print(f"[OK] Full Evaluation Report  : {out_eval}")
 
+    return results
+
 
 if __name__ == "__main__":
     import sys

@@ -1,4 +1,5 @@
 import os
+import sys
 import re
 import csv
 import json
@@ -6,8 +7,14 @@ import tempfile
 import unittest
 from pathlib import Path
 
+# Ensure project root in sys.path
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
 # Import Member 2 modules
 from src.diarization.integrate_transcription import (
+
     find_project_root,
     load_diarization_segments,
     load_whisper_transcript,

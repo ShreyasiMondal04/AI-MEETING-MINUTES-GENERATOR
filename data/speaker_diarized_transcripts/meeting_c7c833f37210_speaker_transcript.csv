@@ -1,0 +1,28 @@
+segment_id,start,end,duration,timestamp,speaker,raw_speaker,secondary_speaker,confidence,text
+1,0.0,3.56,3.56,[00:00:00 - 00:00:04],Speaker 1,SPEAKER_00,,0.67,"Hi, let's start our meeting."
+2,3.56,7.96,4.4,[00:00:04 - 00:00:08],Speaker 1,SPEAKER_00,,1.0,Today we need to discuss the progress of the Neo University website.
+3,7.96,12.96,5.0,[00:00:08 - 00:00:13],Speaker 1,SPEAKER_00,,1.0,"Sure, I have completed the homepage design and most of the navigation section."
+4,12.96,13.96,1.0,[00:00:13 - 00:00:14],Speaker 1,SPEAKER_00,,0.6,That's good.
+5,13.96,17.52,3.56,[00:00:14 - 00:00:18],Speaker 1,SPEAKER_00,,0.95,Are all the pages connected properly?
+6,17.52,18.52,1.0,[00:00:18 - 00:00:19],Speaker 1,SPEAKER_00,,1.0,Not yet.
+7,18.52,22.0,3.48,[00:00:19 - 00:00:22],Speaker 1,SPEAKER_00,,0.86,The admission and contact pages are still under development.
+8,22.0,24.04,2.04,[00:00:22 - 00:00:24],Speaker 1,SPEAKER_00,,0.6,What is causing the delay?
+9,24.04,28.8,4.76,[00:00:24 - 00:00:29],Speaker 1,SPEAKER_00,,0.84,I am waiting for the updated admission information from the documentation team.
+10,28.8,34.72,5.92,[00:00:29 - 00:00:35],Speaker 2,SPEAKER_01,,0.97,"Okay, I will contact them today and ask them to send the information by tomorrow."
+11,34.72,35.72,1.0,[00:00:35 - 00:00:36],Speaker 2,SPEAKER_01,,1.0,That would help.
+12,35.72,39.52,3.8,[00:00:36 - 00:00:40],Speaker 2,SPEAKER_01,,0.84,"Once I receive it, I can complete the admission page."
+13,39.52,43.64,4.12,[00:00:40 - 00:00:44],Speaker 2,SPEAKER_01,,1.0,How much time will you need after receiving the information?
+14,43.64,46.28,2.64,[00:00:44 - 00:00:46],Speaker 2,SPEAKER_01,,0.62,Approximately two days.
+15,46.28,49.88,3.6,[00:00:46 - 00:00:50],Speaker 2,SPEAKER_01,,1.0,So can you finish both the admission and contact pages by Friday?
+16,49.88,53.72,3.84,[00:00:50 - 00:00:54],Speaker 2,SPEAKER_01,,0.82,"Yes, I should be able to finish them by Friday evening."
+17,53.72,54.72,1.0,[00:00:54 - 00:00:55],Speaker 1,SPEAKER_00,,1.0,Great.
+18,54.72,57.6,2.88,[00:00:55 - 00:00:58],Speaker 1,SPEAKER_00,,1.0,We also need to test the website on mobile devices.
+19,57.6,61.52,3.92,[00:00:58 - 00:01:02],Speaker 1,SPEAKER_00,,0.94,I will handle the responsive testing after completing the pages.
+20,61.52,62.52,1.0,[00:01:02 - 00:01:03],Speaker 1,SPEAKER_00,,0.9,Perfect.
+21,62.52,65.92,3.4,[00:01:03 - 00:01:06],Speaker 1,SPEAKER_00,,0.88,I will review the completed website on Monday.
+22,65.92,66.92,1.0,[00:01:06 - 00:01:07],Speaker 1,SPEAKER_00,,1.0,Sounds good.
+23,66.92,69.96,3.04,[00:01:07 - 00:01:10],Speaker 1,SPEAKER_00,,0.88,I will send you the updated version by Friday evening.
+24,69.96,70.96,1.0,[00:01:10 - 00:01:11],Speaker 1,SPEAKER_00,,0.64,Alright.
+25,70.96,73.44,2.48,[00:01:11 - 00:01:13],Speaker 1,SPEAKER_00,,0.6,That's all for today.
+26,73.44,74.44,1.0,[00:01:13 - 00:01:14],Speaker 1,SPEAKER_00,,0.49,Thank you.
+27,74.44,75.44,1.0,[00:01:14 - 00:01:15],Speaker 1,SPEAKER_00,,0.73,Thank you.

@@ -1,0 +1,126 @@
+{
+  "text": "Good morning, let's discuss the progress of our AI meeting mini generator project. Good morning, I have completed the initial setup of the Whisper Space to Stick environment. Great, were you able to test it with an audio file? Yes, I tested it with the short meeting recording and it successfully generated a transcript. I still need to check the accuracy and calculate the word error rate. Okay, what about the speaker directorial model? That part has not been completed yet. We need to integrate PineNot Audio and test whether it can correctly identify the different speakers. We should prioritize that. Can you start working on the directorial model today? Yes, I will start today. I should be able to complete the initial implementation by Thursday. Perfect. I will work on the backend and fronted integration. Why you work on diarization? Sounds good. Do you also need sample meeting recording for testing? Yes, let's create at least three short meeting recordings with two or three speakers. We will use them for testing the complete pipeline. Okay, I record one sample meeting tomorrow. Great. Once we have the recordings, we will test transcription first, then diarization and finally summarization. And after that, we can compare the generated minutes without manually prepared reference minutes. Exactly. Let's target the first complete prototype by next week. Agreed. I will send you the diarization's result by Thursday. Perfect. Let's proceed with that plan.",
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 6.0,
+      "text": "Good morning, let's discuss the progress of our AI meeting mini generator project."
+    },
+    {
+      "id": 1,
+      "start": 6.0,
+      "end": 13.0,
+      "text": "Good morning, I have completed the initial setup of the Whisper Space to Stick environment."
+    },
+    {
+      "id": 2,
+      "start": 13.0,
+      "end": 16.0,
+      "text": "Great, were you able to test it with an audio file?"
+    },
+    {
+      "id": 3,
+      "start": 16.0,
+      "end": 23.0,
+      "text": "Yes, I tested it with the short meeting recording and it successfully generated a transcript."
+    },
+    {
+      "id": 4,
+      "start": 23.0,
+      "end": 29.0,
+      "text": "I still need to check the accuracy and calculate the word error rate."
+    },
+    {
+      "id": 5,
+      "start": 29.0,
+      "end": 32.0,
+      "text": "Okay, what about the speaker directorial model?"
+    },
+    {
+      "id": 6,
+      "start": 32.0,
+      "end": 35.0,
+      "text": "That part has not been completed yet."
+    },
+    {
+      "id": 7,
+      "start": 35.0,
+      "end": 42.0,
+      "text": "We need to integrate PineNot Audio and test whether it can correctly identify the different speakers."
+    },
+    {
+      "id": 8,
+      "start": 42.0,
+      "end": 47.0,
+      "text": "We should prioritize that. Can you start working on the directorial model today?"
+    },
+    {
+      "id": 9,
+      "start": 47.0,
+      "end": 54.0,
+      "text": "Yes, I will start today. I should be able to complete the initial implementation by Thursday."
+    },
+    {
+      "id": 10,
+      "start": 54.0,
+      "end": 58.0,
+      "text": "Perfect. I will work on the backend and fronted integration."
+    },
+    {
+      "id": 11,
+      "start": 58.0,
+      "end": 66.0,
+      "text": "Why you work on diarization? Sounds good. Do you also need sample meeting recording for testing?"
+    },
+    {
+      "id": 12,
+      "start": 66.0,
+      "end": 71.0,
+      "text": "Yes, let's create at least three short meeting recordings with two or three speakers."
+    },
+    {
+      "id": 13,
+      "start": 71.0,
+      "end": 75.0,
+      "text": "We will use them for testing the complete pipeline."
+    },
+    {
+      "id": 14,
+      "start": 75.0,
+      "end": 79.0,
+      "text": "Okay, I record one sample meeting tomorrow. Great."
+    },
+    {
+      "id": 15,
+      "start": 79.0,
+      "end": 85.0,
+      "text": "Once we have the recordings, we will test transcription first, then diarization and finally summarization."
+    },
+    {
+      "id": 16,
+      "start": 85.0,
+      "end": 91.0,
+      "text": "And after that, we can compare the generated minutes without manually prepared reference minutes."
+    },
+    {
+      "id": 17,
+      "start": 91.0,
+      "end": 95.0,
+      "text": "Exactly. Let's target the first complete prototype by next week."
+    },
+    {
+      "id": 18,
+      "start": 95.0,
+      "end": 100.0,
+      "text": "Agreed. I will send you the diarization's result by Thursday."
+    },
+    {
+      "id": 19,
+      "start": 100.0,
+      "end": 103.0,
+      "text": "Perfect. Let's proceed with that plan."
+    }
+  ],
+  "language": "en"
+}

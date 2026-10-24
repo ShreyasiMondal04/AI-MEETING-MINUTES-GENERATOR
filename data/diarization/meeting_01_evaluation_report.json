@@ -1,24 +1,36 @@
 {
   "evaluation_method": "Semantic Text-Aligned Turn Matching",
   "total_evaluated_segments": 20,
-  "correct_segments": 13,
-  "mismatched_segments": 7,
-  "turn_accuracy_percent": 65.0,
-  "turn_error_rate_percent": 35.0,
+  "correct_segments": 5,
+  "mismatched_segments": 15,
+  "turn_accuracy_percent": 25.0,
+  "turn_error_rate_percent": 75.0,
   "total_speech_time_seconds": 103.0,
-  "correct_speech_time_seconds": 67.0,
-  "time_accuracy_percent": 65.05,
-  "time_error_rate_percent": 34.95,
+  "correct_speech_time_seconds": 21.0,
+  "time_accuracy_percent": 20.39,
+  "time_error_rate_percent": 79.61,
   "speaker_permutation_check": {
-    "pipeline_matches": 13,
-    "optimal_matches": 13,
-    "is_optimal": true,
+    "pipeline_matches": 5,
+    "optimal_matches": 15,
+    "is_optimal": false,
     "optimal_mapping": {
-      "SPEAKER_00": "Speaker 1",
-      "SPEAKER_01": "Speaker 2"
+      "SPEAKER_00": "Speaker 2",
+      "SPEAKER_01": "Speaker 1"
     }
   },
   "mismatches": [
+    {
+      "segment_id": 2,
+      "start": 6.0,
+      "end": 13.0,
+      "duration": 7.0,
+      "timestamp": "[00:00:06 - 00:00:13]",
+      "reference_speaker": "Speaker 2",
+      "hypothesis_speaker": "Speaker 1",
+      "raw_speaker": "SPEAKER_00",
+      "error_type": "Acoustic Cluster Confusion / Speaker Merging (pyannote error)",
+      "text": "Good morning, I have completed the initial setup of the Whisper Space to Stick environment."
+    },
     {
       "segment_id": 3,
       "start": 13.0,
@@ -28,20 +40,56 @@
       "reference_speaker": "Speaker 1",
       "hypothesis_speaker": "Speaker 2",
       "raw_speaker": "SPEAKER_01",
-      "error_type": "Acoustic Cluster Confusion / Speaker Merging (pyannote error)",
+      "error_type": "Whisper Segment Fusion (Multiple Speakers in Interval)",
       "text": "Great, were you able to test it with an audio file?"
     },
     {
-      "segment_id": 6,
-      "start": 29.0,
-      "end": 32.0,
-      "duration": 3.0,
-      "timestamp": "[00:00:29 - 00:00:32]",
-      "reference_speaker": "Speaker 1",
-      "hypothesis_speaker": "Speaker 2",
-      "raw_speaker": "SPEAKER_01",
+      "segment_id": 4,
+      "start": 16.0,
+      "end": 23.0,
+      "duration": 7.0,
+      "timestamp": "[00:00:16 - 00:00:23]",
+      "reference_speaker": "Speaker 2",
+      "hypothesis_speaker": "Speaker 1",
+      "raw_speaker": "SPEAKER_00",
       "error_type": "Acoustic Cluster Confusion / Speaker Merging (pyannote error)",
-      "text": "Okay, what about the speaker directorial model?"
+      "text": "Yes, I tested it with the short meeting recording and it successfully generated a transcript."
+    },
+    {
+      "segment_id": 5,
+      "start": 23.0,
+      "end": 29.0,
+      "duration": 6.0,
+      "timestamp": "[00:00:23 - 00:00:29]",
+      "reference_speaker": "Speaker 2",
+      "hypothesis_speaker": "Speaker 1",
+      "raw_speaker": "SPEAKER_00",
+      "error_type": "Acoustic Cluster Confusion / Speaker Merging (pyannote error)",
+      "text": "I still need to check the accuracy and calculate the word error rate."
+    },
+    {
+      "segment_id": 7,
+      "start": 32.0,
+      "end": 35.0,
+      "duration": 3.0,
+      "timestamp": "[00:00:32 - 00:00:35]",
+      "reference_speaker": "Speaker 2",
+      "hypothesis_speaker": "Speaker 1",
+      "raw_speaker": "SPEAKER_00",
+      "error_type": "Acoustic Cluster Confusion / Speaker Merging (pyannote error)",
+      "text": "That part has not been completed yet."
+    },
+    {
+      "segment_id": 8,
+      "start": 35.0,
+      "end": 42.0,
+      "duration": 7.0,
+      "timestamp": "[00:00:35 - 00:00:42]",
+      "reference_speaker": "Speaker 2",
+      "hypothesis_speaker": "Speaker 1",
+      "raw_speaker": "SPEAKER_00",
+      "error_type": "Acoustic Cluster Confusion / Speaker Merging (pyannote error)",
+      "text": "We need to integrate PineNot Audio and test whether it can correctly identify the different speakers."
     },
     {
       "segment_id": 10,
@@ -68,6 +116,30 @@
       "text": "Why you work on diarization? Sounds good. Do you also need sample meeting recording for testing?"
     },
     {
+      "segment_id": 13,
+      "start": 66.0,
+      "end": 71.0,
+      "duration": 5.0,
+      "timestamp": "[00:01:06 - 00:01:11]",
+      "reference_speaker": "Speaker 1",
+      "hypothesis_speaker": "Speaker 2",
+      "raw_speaker": "SPEAKER_01",
+      "error_type": "Acoustic Cluster Confusion / Speaker Merging (pyannote error)",
+      "text": "Yes, let's create at least three short meeting recordings with two or three speakers."
+    },
+    {
+      "segment_id": 14,
+      "start": 71.0,
+      "end": 75.0,
+      "duration": 4.0,
+      "timestamp": "[00:01:11 - 00:01:15]",
+      "reference_speaker": "Speaker 1",
+      "hypothesis_speaker": "Speaker 2",
+      "raw_speaker": "SPEAKER_01",
+      "error_type": "Whisper Segment Fusion (Multiple Speakers in Interval)",
+      "text": "We will use them for testing the complete pipeline."
+    },
+    {
       "segment_id": 15,
       "start": 75.0,
       "end": 79.0,
@@ -78,6 +150,18 @@
       "raw_speaker": "SPEAKER_00",
       "error_type": "Acoustic Cluster Confusion / Speaker Merging (pyannote error)",
       "text": "Okay, I record one sample meeting tomorrow. Great."
+    },
+    {
+      "segment_id": 16,
+      "start": 79.0,
+      "end": 85.0,
+      "duration": 6.0,
+      "timestamp": "[00:01:19 - 00:01:25]",
+      "reference_speaker": "Speaker 1",
+      "hypothesis_speaker": "Speaker 2",
+      "raw_speaker": "SPEAKER_01",
+      "error_type": "Whisper Segment Fusion (Multiple Speakers in Interval)",
+      "text": "Once we have the recordings, we will test transcription first, then diarization and finally summarization."
     },
     {
       "segment_id": 17,
@@ -92,6 +176,18 @@
       "text": "And after that, we can compare the generated minutes without manually prepared reference minutes."
     },
     {
+      "segment_id": 18,
+      "start": 91.0,
+      "end": 95.0,
+      "duration": 4.0,
+      "timestamp": "[00:01:31 - 00:01:35]",
+      "reference_speaker": "Speaker 1",
+      "hypothesis_speaker": "Speaker 2",
+      "raw_speaker": "SPEAKER_01",
+      "error_type": "Whisper Segment Fusion (Multiple Speakers in Interval)",
+      "text": "Exactly. Let's target the first complete prototype by next week."
+    },
+    {
       "segment_id": 19,
       "start": 95.0,
       "end": 100.0,
@@ -100,7 +196,7 @@
       "reference_speaker": "Speaker 2",
       "hypothesis_speaker": "Speaker 1",
       "raw_speaker": "SPEAKER_00",
-      "error_type": "Acoustic Cluster Confusion / Speaker Merging (pyannote error)",
+      "error_type": "Whisper Segment Fusion (Multiple Speakers in Interval)",
       "text": "Agreed. I will send you the diarization's result by Thursday."
     }
   ]

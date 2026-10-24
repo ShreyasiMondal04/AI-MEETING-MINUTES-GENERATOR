@@ -1,0 +1,55 @@
+{
+  "meeting_stem": "meeting_01",
+  "evaluation_timestamp": "1792763499.809613",
+  "speech_to_text": {
+    "metric": "Word Error Rate (WER)",
+    "wer": 0.129,
+    "wer_percentage": "12.90%",
+    "word_accuracy": "87.10%",
+    "character_error_rate": "7.84%",
+    "hits": 218,
+    "substitutions": 23,
+    "deletions": 7,
+    "insertions": 2
+  },
+  "speaker_diarization": {
+    "metric": "Diarization Error Rate (DER)",
+    "turn_attribution_accuracy": "25.00%",
+    "time_weighted_accuracy": "20.39%",
+    "time_weighted_error_rate": "79.61%",
+    "total_segments": 20,
+    "correct_turns": 5,
+    "mismatched_turns": 15
+  },
+  "summarization": {
+    "metric": "ROUGE & BLEU",
+    "rouge_1_f1": "63.67%",
+    "rouge_2_f1": "45.49%",
+    "rouge_l_f1": "53.88%",
+    "bleu_score": "30.33%",
+    "details": {
+      "rouge1": {
+        "precision": 0.75,
+        "recall": 0.5532,
+        "f1": 0.6367,
+        "f1_percentage": "63.67%"
+      },
+      "rouge2": {
+        "precision": 0.5362,
+        "recall": 0.395,
+        "f1": 0.4549,
+        "f1_percentage": "45.49%"
+      },
+      "rougeL": {
+        "precision": 0.6346,
+        "recall": 0.4681,
+        "f1": 0.5388,
+        "f1_percentage": "53.88%"
+      },
+      "bleu": {
+        "score": 0.3033,
+        "percentage": "30.33%"
+      }
+    }
+  }
+}

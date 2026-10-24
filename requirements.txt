@@ -6,3 +6,10 @@ torchaudio
 fastapi
 uvicorn
 python-multipart
+soundfile
+scikit-learn
+reportlab
+python-docx
+jiwer
+rouge-score
+nltk

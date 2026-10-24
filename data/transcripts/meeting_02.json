@@ -1,0 +1,168 @@
+{
+  "text": "Hi, let's start our meeting. Today we need to discuss the progress of the Neo University website. Sure, I have completed the homepage design and most of the navigation section. That's good. Are all the pages connected properly? Not yet. The admission and contact pages are still under development. What is causing the delay? I am waiting for the updated admission information from the documentation team. Okay, I will contact them today and ask them to send the information by tomorrow. That would help. Once I receive it, I can complete the admission page. How much time will you need after receiving the information? Approximately two days. So can you finish both the admission and contact pages by Friday? Yes, I should be able to finish them by Friday evening. Great. We also need to test the website on mobile devices. I will handle the responsive testing after completing the pages. Perfect. I will review the completed website on Monday. Sounds good. I will send you the updated version by Friday evening. Alright. That's all for today. Thank you. Thank you.",
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 3.56,
+      "text": "Hi, let's start our meeting."
+    },
+    {
+      "id": 1,
+      "start": 3.56,
+      "end": 7.96,
+      "text": "Today we need to discuss the progress of the Neo University website."
+    },
+    {
+      "id": 2,
+      "start": 7.96,
+      "end": 12.96,
+      "text": "Sure, I have completed the homepage design and most of the navigation section."
+    },
+    {
+      "id": 3,
+      "start": 12.96,
+      "end": 13.96,
+      "text": "That's good."
+    },
+    {
+      "id": 4,
+      "start": 13.96,
+      "end": 17.52,
+      "text": "Are all the pages connected properly?"
+    },
+    {
+      "id": 5,
+      "start": 17.52,
+      "end": 18.52,
+      "text": "Not yet."
+    },
+    {
+      "id": 6,
+      "start": 18.52,
+      "end": 22.0,
+      "text": "The admission and contact pages are still under development."
+    },
+    {
+      "id": 7,
+      "start": 22.0,
+      "end": 24.04,
+      "text": "What is causing the delay?"
+    },
+    {
+      "id": 8,
+      "start": 24.04,
+      "end": 28.8,
+      "text": "I am waiting for the updated admission information from the documentation team."
+    },
+    {
+      "id": 9,
+      "start": 28.8,
+      "end": 34.72,
+      "text": "Okay, I will contact them today and ask them to send the information by tomorrow."
+    },
+    {
+      "id": 10,
+      "start": 34.72,
+      "end": 35.72,
+      "text": "That would help."
+    },
+    {
+      "id": 11,
+      "start": 35.72,
+      "end": 39.52,
+      "text": "Once I receive it, I can complete the admission page."
+    },
+    {
+      "id": 12,
+      "start": 39.52,
+      "end": 43.64,
+      "text": "How much time will you need after receiving the information?"
+    },
+    {
+      "id": 13,
+      "start": 43.64,
+      "end": 46.28,
+      "text": "Approximately two days."
+    },
+    {
+      "id": 14,
+      "start": 46.28,
+      "end": 49.88,
+      "text": "So can you finish both the admission and contact pages by Friday?"
+    },
+    {
+      "id": 15,
+      "start": 49.88,
+      "end": 53.72,
+      "text": "Yes, I should be able to finish them by Friday evening."
+    },
+    {
+      "id": 16,
+      "start": 53.72,
+      "end": 54.72,
+      "text": "Great."
+    },
+    {
+      "id": 17,
+      "start": 54.72,
+      "end": 57.6,
+      "text": "We also need to test the website on mobile devices."
+    },
+    {
+      "id": 18,
+      "start": 57.6,
+      "end": 61.52,
+      "text": "I will handle the responsive testing after completing the pages."
+    },
+    {
+      "id": 19,
+      "start": 61.52,
+      "end": 62.52,
+      "text": "Perfect."
+    },
+    {
+      "id": 20,
+      "start": 62.52,
+      "end": 65.84,
+      "text": "I will review the completed website on Monday."
+    },
+    {
+      "id": 21,
+      "start": 65.84,
+      "end": 66.84,
+      "text": "Sounds good."
+    },
+    {
+      "id": 22,
+      "start": 66.84,
+      "end": 70.08,
+      "text": "I will send you the updated version by Friday evening."
+    },
+    {
+      "id": 23,
+      "start": 70.08,
+      "end": 71.08,
+      "text": "Alright."
+    },
+    {
+      "id": 24,
+      "start": 71.08,
+      "end": 73.08,
+      "text": "That's all for today."
+    },
+    {
+      "id": 25,
+      "start": 73.08,
+      "end": 74.08,
+      "text": "Thank you."
+    },
+    {
+      "id": 26,
+      "start": 74.08,
+      "end": 75.08,
+      "text": "Thank you."
+    }
+  ],
+  "language": "en"
+}

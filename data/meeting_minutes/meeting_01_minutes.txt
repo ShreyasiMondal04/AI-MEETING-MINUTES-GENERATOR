@@ -1,101 +1,84 @@
-MEETING MINUTES
-========================================
+============================================================
+AI MEETING MINUTES GENERATOR PROJECT SPRINT
+============================================================
+Date     : October 23, 2026
+Duration : 01:43
+Attendees: Speaker 1, Speaker 2
+============================================================
 
-SUMMARY
-Good morning, I have completed the initial setup of the Whisper Space to Stick environment. Yes, I tested it with the short meeting recording and it successfully generated a transcript. I still need to check the accuracy and calculate the word error rate. That part has not been completed yet. We need to integrate PineNot Audio and test whether it can correctly identify the different speakers.
+EXECUTIVE SUMMARY:
+Good morning, let's discuss the progress of our AI meeting mini generator project. Good morning, I have completed the initial setup of the Whisper Space to Stick environment. Yes, I tested it with the short meeting recording and it successfully generated a transcript. I still need to check the accuracy and calculate the word error rate. That part has not been completed yet.
 
-KEY POINTS
-- Good morning, I have completed the initial setup of the Whisper Space to Stick environment.
-- Yes, I tested it with the short meeting recording and it successfully generated a transcript.
-- I still need to check the accuracy and calculate the word error rate.
-- Okay, what about the speaker directorial model?
-- That part has not been completed yet.
-- We need to integrate PineNot Audio and test whether it can correctly identify the different speakers.
-- I will work on the backend and fronted integration.
-- Why you work on diarization?
-- Do you also need sample meeting recording for testing?
-- Yes, let's create at least three short meeting recordings with two or three speakers.
-- We will use them for testing the complete pipeline.
-- Once we have the recordings, we will test transcription first, then diarization and finally summarization.
-- And after that, we can compare the generated minutes without manually prepared reference minutes.
-- Let's target the first complete prototype by next week.
-- I will send you the diarization's result by Thursday.
+KEY DISCUSSION POINTS:
+ - Good morning, let's discuss the progress of our AI meeting mini generator project.
+ - Good morning, I have completed the initial setup of the Whisper Space to Stick environment.
+ - Yes, I tested it with the short meeting recording and it successfully generated a transcript.
+ - I still need to check the accuracy and calculate the word error rate.
+ - That part has not been completed yet.
+ - We need to integrate PineNot Audio and test whether it can correctly identify the different speakers.
+ - I should be able to complete the initial implementation by Thursday.
+ - I will work on the backend and fronted integration.
+ - We will use them for testing the complete pipeline.
+ - Once we have the recordings, we will test transcription first, then diarization and finally summarization.
+ - Let's target the first complete prototype by next week.
+ - I will send you the diarization's result by Thursday.
 
-DECISIONS
-- We will use them for testing the complete pipeline.
-- Let's target the first complete prototype by next week.
+DECISIONS MADE:
+ - [DECISION] Can you start working on the directorial model today? Yes, I will start today.
+ - [DECISION] Yes, let's create at least three short meeting recordings with two or three speakers.
+ - [DECISION] We will use them for testing the complete pipeline.
+ - [DECISION] Let's target the first complete prototype by next week.
+ - [DECISION] Let's proceed with that plan.
 
-ACTION ITEMS
-- Task: I still need to check the accuracy and calculate the word error rate.
-  Responsible person: Not identified
-  Deadline: Not identified
-- Task: We need to integrate PineNot Audio and test whether it can correctly identify the different speakers.
-  Responsible person: Not identified
-  Deadline: Not identified
-- Task: We should prioritize that.
-  Responsible person: Not identified
-  Deadline: Not identified
-- Task: Can you start working on the directorial model today?
-  Responsible person: Not identified
-  Deadline: today
-- Task: Yes, I will start today.
-  Responsible person: Speaker 1
-  Deadline: today
-- Task: I should be able to complete the initial implementation by Thursday.
-  Responsible person: Not identified
-  Deadline: by Thursday
-- Task: I will work on the backend and fronted integration.
-  Responsible person: Speaker 1
-  Deadline: Not identified
-- Task: Yes, let's create at least three short meeting recordings with two or three speakers.
-  Responsible person: Not identified
-  Deadline: Not identified
-- Task: We will use them for testing the complete pipeline.
-  Responsible person: Not identified
-  Deadline: Not identified
-- Task: Okay, I record one sample meeting tomorrow.
-  Responsible person: Not identified
-  Deadline: tomorrow
-- Task: Once we have the recordings, we will test transcription first, then diarization and finally summarization.
-  Responsible person: Not identified
-  Deadline: Not identified
-- Task: Let's target the first complete prototype by next week.
-  Responsible person: Not identified
-  Deadline: by next week
-- Task: I will send you the diarization's result by Thursday.
-  Responsible person: Speaker 1
-  Deadline: by Thursday
+ACTION ITEMS:
+ - [TASK] I still need to check the accuracy and calculate the word error rate.
+   Assignee: Team / Unassigned | Deadline: Not specified | Priority: Normal
+ - [TASK] We need to integrate PineNot Audio and test whether it can correctly identify the different speakers.
+   Assignee: Team / Unassigned | Deadline: Not specified | Priority: Normal
+ - [TASK] We should prioritize that.
+   Assignee: Team / Unassigned | Deadline: Not specified | Priority: High
+ - [TASK] Yes, I will start today.
+   Assignee: Speaker 1 | Deadline: Today | Priority: High
+ - [TASK] I should be able to complete the initial implementation by Thursday.
+   Assignee: Speaker 1 | Deadline: By thursday | Priority: Medium
+ - [TASK] I will work on the backend and fronted integration.
+   Assignee: Speaker 1 | Deadline: Not specified | Priority: Normal
+ - [TASK] We will use them for testing the complete pipeline.
+   Assignee: Team / Unassigned | Deadline: Not specified | Priority: Normal
+ - [TASK] Okay, I record one sample meeting tomorrow.
+   Assignee: Speaker 1 | Deadline: Tomorrow | Priority: High
+ - [TASK] Once we have the recordings, we will test transcription first, then diarization and finally summarization.
+   Assignee: Team / Unassigned | Deadline: Not specified | Priority: Normal
+ - [TASK] I will send you the diarization's result by Thursday.
+   Assignee: Speaker 1 | Deadline: By thursday | Priority: Medium
 
-SPEAKER CONTRIBUTIONS
-- Speaker 1: Good morning, let's discuss the progress of our AI meeting mini generator project.
-- Speaker 2: Good morning, I have completed the initial setup of the Whisper Space to Stick environment.
-- Speaker 2: Great, were you able to test it with an audio file?
-- Speaker 2: Yes, I tested it with the short meeting recording and it successfully generated a transcript.
-- Speaker 2: I still need to check the accuracy and calculate the word error rate.
-- Speaker 2: Okay, what about the speaker directorial model?
-- Speaker 2: That part has not been completed yet.
-- Speaker 2: We need to integrate PineNot Audio and test whether it can correctly identify the different speakers.
-- Speaker 1: We should prioritize that.
-- Speaker 1: Can you start working on the directorial model today?
-- Speaker 1: Yes, I will start today.
-- Speaker 1: I should be able to complete the initial implementation by Thursday.
-- Speaker 1: Perfect.
-- Speaker 1: I will work on the backend and fronted integration.
-- Speaker 1: Why you work on diarization?
-- Speaker 1: Sounds good.
-- Speaker 1: Do you also need sample meeting recording for testing?
-- Speaker 1: Yes, let's create at least three short meeting recordings with two or three speakers.
-- Speaker 1: We will use them for testing the complete pipeline.
-- Speaker 1: Okay, I record one sample meeting tomorrow.
-- Speaker 1: Great.
-- Speaker 1: Once we have the recordings, we will test transcription first, then diarization and finally summarization.
-- Speaker 1: And after that, we can compare the generated minutes without manually prepared reference minutes.
-- Speaker 1: Exactly.
-- Speaker 1: Let's target the first complete prototype by next week.
-- Speaker 1: Agreed.
-- Speaker 1: I will send you the diarization's result by Thursday.
-- Speaker 1: Perfect.
-- Speaker 1: Let's proceed with that plan.
-
-NOTE
-Rule-based draft. Verify the summary, decisions, task ownership, and deadlines against the original transcript. Speaker labels may contain diarization errors.
+TRANSCRIPT:
+[Speaker 1]: Good morning, let's discuss the progress of our AI meeting mini generator project.
+[Speaker 1]: Good morning, I have completed the initial setup of the Whisper Space to Stick environment.
+[Speaker 2]: Great, were you able to test it with an audio file?
+[Speaker 1]: Yes, I tested it with the short meeting recording and it successfully generated a transcript.
+[Speaker 1]: I still need to check the accuracy and calculate the word error rate.
+[Speaker 1]: Okay, what about the speaker directorial model?
+[Speaker 1]: That part has not been completed yet.
+[Speaker 1]: We need to integrate PineNot Audio and test whether it can correctly identify the different speakers.
+[Speaker 1]: We should prioritize that.
+[Speaker 1]: Can you start working on the directorial model today?
+[Speaker 1]: Yes, I will start today.
+[Speaker 1]: I should be able to complete the initial implementation by Thursday.
+[Speaker 1]: Perfect.
+[Speaker 1]: I will work on the backend and fronted integration.
+[Speaker 1]: Why you work on diarization?
+[Speaker 1]: Sounds good.
+[Speaker 1]: Do you also need sample meeting recording for testing?
+[Speaker 2]: Yes, let's create at least three short meeting recordings with two or three speakers.
+[Speaker 2]: We will use them for testing the complete pipeline.
+[Speaker 1]: Okay, I record one sample meeting tomorrow.
+[Speaker 1]: Great.
+[Speaker 2]: Once we have the recordings, we will test transcription first, then diarization and finally summarization.
+[Speaker 1]: And after that, we can compare the generated minutes without manually prepared reference minutes.
+[Speaker 2]: Exactly.
+[Speaker 2]: Let's target the first complete prototype by next week.
+[Speaker 1]: Agreed.
+[Speaker 1]: I will send you the diarization's result by Thursday.
+[Speaker 1]: Perfect.
+[Speaker 1]: Let's proceed with that plan.

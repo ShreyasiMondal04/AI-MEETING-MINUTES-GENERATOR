@@ -1,0 +1,152 @@
+{
+    "summary": "Sure, I have completed the homepage design and most of the navigation section. I will review the completed website on Monday.",
+    "key_points": [
+        "Sure, I have completed the homepage design and most of the navigation section.",
+        "I will handle the responsive testing after completing the pages.",
+        "I will review the completed website on Monday."
+    ],
+    "decisions": [],
+    "action_items": [
+        {
+            "task": "Today we need to discuss the progress of the Neo University website.",
+            "responsible_person": "Not identified",
+            "deadline": "Today"
+        },
+        {
+            "task": "Okay, I will contact them today and ask them to send the information by tomorrow.",
+            "responsible_person": "Speaker 2",
+            "deadline": "today"
+        },
+        {
+            "task": "We also need to test the website on mobile devices.",
+            "responsible_person": "Not identified",
+            "deadline": "Not identified"
+        },
+        {
+            "task": "I will handle the responsive testing after completing the pages.",
+            "responsible_person": "Speaker 1",
+            "deadline": "Not identified"
+        },
+        {
+            "task": "I will review the completed website on Monday.",
+            "responsible_person": "Speaker 1",
+            "deadline": "Not identified"
+        },
+        {
+            "task": "I will send you the updated version by Friday evening.",
+            "responsible_person": "Speaker 1",
+            "deadline": "by Friday"
+        }
+    ],
+    "speaker_contributions": [
+        {
+            "speaker": "Speaker 1",
+            "text": "Hi, let's start our meeting."
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "Today we need to discuss the progress of the Neo University website."
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "Sure, I have completed the homepage design and most of the navigation section."
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "That's good."
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "Are all the pages connected properly?"
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "Not yet."
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "The admission and contact pages are still under development."
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "What is causing the delay?"
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "I am waiting for the updated admission information from the documentation team."
+        },
+        {
+            "speaker": "Speaker 2",
+            "text": "Okay, I will contact them today and ask them to send the information by tomorrow."
+        },
+        {
+            "speaker": "Speaker 2",
+            "text": "That would help."
+        },
+        {
+            "speaker": "Speaker 2",
+            "text": "Once I receive it, I can complete the admission page."
+        },
+        {
+            "speaker": "Speaker 2",
+            "text": "How much time will you need after receiving the information?"
+        },
+        {
+            "speaker": "Speaker 2",
+            "text": "Approximately two days."
+        },
+        {
+            "speaker": "Speaker 2",
+            "text": "So can you finish both the admission and contact pages by Friday?"
+        },
+        {
+            "speaker": "Speaker 2",
+            "text": "Yes, I should be able to finish them by Friday evening."
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "Great."
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "We also need to test the website on mobile devices."
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "I will handle the responsive testing after completing the pages."
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "Perfect."
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "I will review the completed website on Monday."
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "Sounds good."
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "I will send you the updated version by Friday evening."
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "Alright."
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "That's all for today."
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "Thank you."
+        },
+        {
+            "speaker": "Speaker 1",
+            "text": "Thank you."
+        }
+    ],
+    "note": "Rule-based draft. Verify the summary, decisions, task ownership, and deadlines against the original transcript. Speaker labels may contain diarization errors."
+}

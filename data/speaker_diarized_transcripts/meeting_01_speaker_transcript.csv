@@ -1,21 +1,21 @@
 segment_id,start,end,duration,timestamp,speaker,raw_speaker,secondary_speaker,confidence,text
-1,0.0,6.0,6.0,[00:00:00 - 00:00:06],Speaker 1,SPEAKER_00,,0.71,"Good morning, let's discuss the progress of our AI meeting mini generator project."
-2,6.0,13.0,7.0,[00:00:06 - 00:00:13],Speaker 2,SPEAKER_01,,0.92,"Good morning, I have completed the initial setup of the Whisper Space to Stick environment."
-3,13.0,16.0,3.0,[00:00:13 - 00:00:16],Speaker 2,SPEAKER_01,,0.9,"Great, were you able to test it with an audio file?"
-4,16.0,23.0,7.0,[00:00:16 - 00:00:23],Speaker 2,SPEAKER_01,,0.98,"Yes, I tested it with the short meeting recording and it successfully generated a transcript."
-5,23.0,29.0,6.0,[00:00:23 - 00:00:29],Speaker 2,SPEAKER_01,,0.89,I still need to check the accuracy and calculate the word error rate.
-6,29.0,32.0,3.0,[00:00:29 - 00:00:32],Speaker 2,SPEAKER_01,,0.92,"Okay, what about the speaker directorial model?"
-7,32.0,35.0,3.0,[00:00:32 - 00:00:35],Speaker 2,SPEAKER_01,,0.88,That part has not been completed yet.
-8,35.0,42.0,7.0,[00:00:35 - 00:00:42],Speaker 2,SPEAKER_01,,0.92,We need to integrate PineNot Audio and test whether it can correctly identify the different speakers.
-9,42.0,47.0,5.0,[00:00:42 - 00:00:47],Speaker 1,SPEAKER_00,,0.83,We should prioritize that. Can you start working on the directorial model today?
-10,47.0,54.0,7.0,[00:00:47 - 00:00:54],Speaker 1,SPEAKER_00,,0.92,"Yes, I will start today. I should be able to complete the initial implementation by Thursday."
-11,54.0,58.0,4.0,[00:00:54 - 00:00:58],Speaker 1,SPEAKER_00,,0.9,Perfect. I will work on the backend and fronted integration.
-12,58.0,66.0,8.0,[00:00:58 - 00:01:06],Speaker 1,SPEAKER_00,,0.86,Why you work on diarization? Sounds good. Do you also need sample meeting recording for testing?
-13,66.0,71.0,5.0,[00:01:06 - 00:01:11],Speaker 1,SPEAKER_00,,1.0,"Yes, let's create at least three short meeting recordings with two or three speakers."
-14,71.0,75.0,4.0,[00:01:11 - 00:01:15],Speaker 1,SPEAKER_00,,0.85,We will use them for testing the complete pipeline.
+1,0.0,6.0,6.0,[00:00:00 - 00:00:06],Speaker 1,SPEAKER_00,Speaker 2,0.62,"Good morning, let's discuss the progress of our AI meeting mini generator project."
+2,6.0,13.0,7.0,[00:00:06 - 00:00:13],Speaker 1,SPEAKER_00,,1.0,"Good morning, I have completed the initial setup of the Whisper Space to Stick environment."
+3,13.0,16.0,3.0,[00:00:13 - 00:00:16],Speaker 2,SPEAKER_01,Speaker 1,0.75,"Great, were you able to test it with an audio file?"
+4,16.0,23.0,7.0,[00:00:16 - 00:00:23],Speaker 1,SPEAKER_00,,1.0,"Yes, I tested it with the short meeting recording and it successfully generated a transcript."
+5,23.0,29.0,6.0,[00:00:23 - 00:00:29],Speaker 1,SPEAKER_00,,1.0,I still need to check the accuracy and calculate the word error rate.
+6,29.0,32.0,3.0,[00:00:29 - 00:00:32],Speaker 1,SPEAKER_00,,1.0,"Okay, what about the speaker directorial model?"
+7,32.0,35.0,3.0,[00:00:32 - 00:00:35],Speaker 1,SPEAKER_00,,1.0,That part has not been completed yet.
+8,35.0,42.0,7.0,[00:00:35 - 00:00:42],Speaker 1,SPEAKER_00,,1.0,We need to integrate PineNot Audio and test whether it can correctly identify the different speakers.
+9,42.0,47.0,5.0,[00:00:42 - 00:00:47],Speaker 1,SPEAKER_00,,1.0,We should prioritize that. Can you start working on the directorial model today?
+10,47.0,54.0,7.0,[00:00:47 - 00:00:54],Speaker 1,SPEAKER_00,,1.0,"Yes, I will start today. I should be able to complete the initial implementation by Thursday."
+11,54.0,58.0,4.0,[00:00:54 - 00:00:58],Speaker 1,SPEAKER_00,,1.0,Perfect. I will work on the backend and fronted integration.
+12,58.0,66.0,8.0,[00:00:58 - 00:01:06],Speaker 1,SPEAKER_00,,1.0,Why you work on diarization? Sounds good. Do you also need sample meeting recording for testing?
+13,66.0,71.0,5.0,[00:01:06 - 00:01:11],Speaker 2,SPEAKER_01,,1.0,"Yes, let's create at least three short meeting recordings with two or three speakers."
+14,71.0,75.0,4.0,[00:01:11 - 00:01:15],Speaker 2,SPEAKER_01,Speaker 1,0.62,We will use them for testing the complete pipeline.
 15,75.0,79.0,4.0,[00:01:15 - 00:01:19],Speaker 1,SPEAKER_00,,1.0,"Okay, I record one sample meeting tomorrow. Great."
-16,79.0,85.0,6.0,[00:01:19 - 00:01:25],Speaker 1,SPEAKER_00,,0.91,"Once we have the recordings, we will test transcription first, then diarization and finally summarization."
-17,85.0,91.0,6.0,[00:01:25 - 00:01:31],Speaker 1,SPEAKER_00,,0.99,"And after that, we can compare the generated minutes without manually prepared reference minutes."
-18,91.0,95.0,4.0,[00:01:31 - 00:01:35],Speaker 1,SPEAKER_00,,1.0,Exactly. Let's target the first complete prototype by next week.
-19,95.0,100.0,5.0,[00:01:35 - 00:01:40],Speaker 1,SPEAKER_00,,0.82,Agreed. I will send you the diarization's result by Thursday.
-20,100.0,103.0,3.0,[00:01:40 - 00:01:43],Speaker 1,SPEAKER_00,,0.74,Perfect. Let's proceed with that plan.
+16,79.0,85.0,6.0,[00:01:19 - 00:01:25],Speaker 2,SPEAKER_01,Speaker 1,0.62,"Once we have the recordings, we will test transcription first, then diarization and finally summarization."
+17,85.0,91.0,6.0,[00:01:25 - 00:01:31],Speaker 1,SPEAKER_00,,1.0,"And after that, we can compare the generated minutes without manually prepared reference minutes."
+18,91.0,95.0,4.0,[00:01:31 - 00:01:35],Speaker 2,SPEAKER_01,Speaker 1,0.69,Exactly. Let's target the first complete prototype by next week.
+19,95.0,100.0,5.0,[00:01:35 - 00:01:40],Speaker 1,SPEAKER_00,Speaker 2,0.8,Agreed. I will send you the diarization's result by Thursday.
+20,100.0,103.0,3.0,[00:01:40 - 00:01:43],Speaker 1,SPEAKER_00,,1.0,Perfect. Let's proceed with that plan.

@@ -1,0 +1,27 @@
+[00:00:00 - 00:00:04] Speaker 1: Hi, let's start our meeting.
+[00:00:04 - 00:00:08] Speaker 1: Today we need to discuss the progress of the Neo University website.
+[00:00:08 - 00:00:13] Speaker 1: Sure, I have completed the homepage design and most of the navigation section.
+[00:00:13 - 00:00:14] Speaker 1: That's good.
+[00:00:14 - 00:00:18] Speaker 1: Are all the pages connected properly?
+[00:00:18 - 00:00:19] Speaker 1: Not yet.
+[00:00:19 - 00:00:22] Speaker 1: The admission and contact pages are still under development.
+[00:00:22 - 00:00:24] Speaker 1: What is causing the delay?
+[00:00:24 - 00:00:29] Speaker 1: I am waiting for the updated admission information from the documentation team.
+[00:00:29 - 00:00:35] Speaker 2: Okay, I will contact them today and ask them to send the information by tomorrow.
+[00:00:35 - 00:00:36] Speaker 2: That would help.
+[00:00:36 - 00:00:40] Speaker 2: Once I receive it, I can complete the admission page.
+[00:00:40 - 00:00:44] Speaker 2: How much time will you need after receiving the information?
+[00:00:44 - 00:00:46] Speaker 2: Approximately two days.
+[00:00:46 - 00:00:50] Speaker 2: So can you finish both the admission and contact pages by Friday?
+[00:00:50 - 00:00:54] Speaker 2: Yes, I should be able to finish them by Friday evening.
+[00:00:54 - 00:00:55] Speaker 1: Great.
+[00:00:55 - 00:00:58] Speaker 1: We also need to test the website on mobile devices.
+[00:00:58 - 00:01:02] Speaker 1: I will handle the responsive testing after completing the pages.
+[00:01:02 - 00:01:03] Speaker 1: Perfect.
+[00:01:03 - 00:01:06] Speaker 1: I will review the completed website on Monday.
+[00:01:06 - 00:01:07] Speaker 1: Sounds good.
+[00:01:07 - 00:01:10] Speaker 1: I will send you the updated version by Friday evening.
+[00:01:10 - 00:01:11] Speaker 1: Alright.
+[00:01:11 - 00:01:13] Speaker 1: That's all for today.
+[00:01:13 - 00:01:14] Speaker 1: Thank you.
+[00:01:14 - 00:01:15] Speaker 1: Thank you.
