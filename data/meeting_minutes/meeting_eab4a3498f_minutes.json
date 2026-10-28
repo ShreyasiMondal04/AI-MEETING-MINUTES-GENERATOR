@@ -1,0 +1,270 @@
+{
+  "title": "University Website Redesign & Delivery Sync",
+  "date": "October 27, 2026",
+  "duration_formatted": "01:15",
+  "participants": [
+    "Speaker 1",
+    "Speaker 2"
+  ],
+  "summary": "Today we need to discuss the progress of the Neo University website. Sure, I have completed the homepage design and most of the navigation section. The admission and contact pages are still under development. I am waiting for the updated admission information from the documentation team. Okay, I will contact them today and ask them to send the information by tomorrow.",
+  "topics": [
+    {
+      "topic": "Project Architecture & Setup",
+      "points": [
+        "Sure, I have completed the homepage design and most of the navigation section."
+      ]
+    },
+    {
+      "topic": "Core Module Development",
+      "points": [
+        "Are all the pages connected properly?",
+        "The admission and contact pages are still under development.",
+        "What is causing the delay?",
+        "I am waiting for the updated admission information from the documentation team."
+      ]
+    },
+    {
+      "topic": "Testing & Integration",
+      "points": [
+        "We also need to test the website on mobile devices.",
+        "I will handle the responsive testing after completing the pages."
+      ]
+    },
+    {
+      "topic": "Action Plan & Deadlines",
+      "points": [
+        "Okay, I will contact them today and ask them to send the information by tomorrow.",
+        "So can you finish both the admission and contact pages by Friday?",
+        "Yes, I should be able to finish them by Friday evening.",
+        "I will review the completed website on Monday."
+      ]
+    }
+  ],
+  "key_points": [
+    "Today we need to discuss the progress of the Neo University website.",
+    "Sure, I have completed the homepage design and most of the navigation section.",
+    "The admission and contact pages are still under development.",
+    "I am waiting for the updated admission information from the documentation team.",
+    "Okay, I will contact them today and ask them to send the information by tomorrow.",
+    "Once I receive it, I can complete the admission page.",
+    "Yes, I should be able to finish them by Friday evening.",
+    "We also need to test the website on mobile devices.",
+    "I will handle the responsive testing after completing the pages.",
+    "I will review the completed website on Monday.",
+    "I will send you the updated version by Friday evening."
+  ],
+  "decisions": [
+    "So can you finish both the admission and contact pages by Friday? Yes, I should be able to finish them by Friday evening."
+  ],
+  "action_items": [
+    {
+      "task": "Okay, I will contact them today and ask them to send the information by tomorrow.",
+      "responsible_person": "Speaker 1",
+      "deadline": "Today",
+      "priority": "High",
+      "status": "Pending"
+    },
+    {
+      "task": "Once I receive it, I can complete the admission page.",
+      "responsible_person": "Speaker 1",
+      "deadline": "Not specified",
+      "priority": "Normal",
+      "status": "Pending"
+    },
+    {
+      "task": "Yes, I should be able to finish them by Friday evening.",
+      "responsible_person": "Speaker 1",
+      "deadline": "By friday",
+      "priority": "Medium",
+      "status": "Pending"
+    },
+    {
+      "task": "We also need to test the website on mobile devices.",
+      "responsible_person": "Team / Unassigned",
+      "deadline": "Not specified",
+      "priority": "Normal",
+      "status": "Pending"
+    },
+    {
+      "task": "I will handle the responsive testing after completing the pages.",
+      "responsible_person": "Speaker 1",
+      "deadline": "Not specified",
+      "priority": "Normal",
+      "status": "Pending"
+    },
+    {
+      "task": "I will review the completed website on Monday.",
+      "responsible_person": "Speaker 2",
+      "deadline": "Not specified",
+      "priority": "Normal",
+      "status": "Pending"
+    },
+    {
+      "task": "I will send you the updated version by Friday evening.",
+      "responsible_person": "Speaker 1",
+      "deadline": "By friday",
+      "priority": "Medium",
+      "status": "Pending"
+    }
+  ],
+  "speaker_analytics": {
+    "total_duration_sec": 75.44,
+    "formatted_duration": "01:15",
+    "total_words": 181,
+    "total_turns": 27,
+    "speakers": [
+      {
+        "speaker": "Speaker 1",
+        "talk_time_sec": 63.1,
+        "share_percentage": 83.6,
+        "turns": 23,
+        "word_count": 153
+      },
+      {
+        "speaker": "Speaker 2",
+        "talk_time_sec": 12.4,
+        "share_percentage": 16.4,
+        "turns": 4,
+        "word_count": 28
+      }
+    ]
+  },
+  "speaker_contributions": [
+    {
+      "speaker": "Speaker 1",
+      "text": "Hi, let's start our meeting.",
+      "timestamp": "[00:00:00 - 00:00:04]"
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "Today we need to discuss the progress of the Neo University website.",
+      "timestamp": "[00:00:04 - 00:00:08]"
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "Sure, I have completed the homepage design and most of the navigation section.",
+      "timestamp": "[00:00:08 - 00:00:13]"
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "That's good.",
+      "timestamp": "[00:00:13 - 00:00:14]"
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "Are all the pages connected properly?",
+      "timestamp": "[00:00:14 - 00:00:18]"
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "Not yet.",
+      "timestamp": "[00:00:18 - 00:00:19]"
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "The admission and contact pages are still under development.",
+      "timestamp": "[00:00:19 - 00:00:22]"
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "What is causing the delay?",
+      "timestamp": "[00:00:22 - 00:00:24]"
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "I am waiting for the updated admission information from the documentation team.",
+      "timestamp": "[00:00:24 - 00:00:29]"
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "Okay, I will contact them today and ask them to send the information by tomorrow.",
+      "timestamp": "[00:00:29 - 00:00:35]"
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "That would help.",
+      "timestamp": "[00:00:35 - 00:00:36]"
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "Once I receive it, I can complete the admission page.",
+      "timestamp": "[00:00:36 - 00:00:40]"
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "How much time will you need after receiving the information?",
+      "timestamp": "[00:00:40 - 00:00:44]"
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "Approximately two days.",
+      "timestamp": "[00:00:44 - 00:00:46]"
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "So can you finish both the admission and contact pages by Friday?",
+      "timestamp": "[00:00:46 - 00:00:50]"
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "Yes, I should be able to finish them by Friday evening.",
+      "timestamp": "[00:00:50 - 00:00:54]"
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "Great.",
+      "timestamp": "[00:00:54 - 00:00:55]"
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "We also need to test the website on mobile devices.",
+      "timestamp": "[00:00:55 - 00:00:58]"
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "I will handle the responsive testing after completing the pages.",
+      "timestamp": "[00:00:58 - 00:01:02]"
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "Perfect.",
+      "timestamp": "[00:01:02 - 00:01:03]"
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "I will review the completed website on Monday.",
+      "timestamp": "[00:01:03 - 00:01:06]"
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "Sounds good.",
+      "timestamp": "[00:01:06 - 00:01:07]"
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "I will send you the updated version by Friday evening.",
+      "timestamp": "[00:01:07 - 00:01:10]"
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "Alright.",
+      "timestamp": "[00:01:10 - 00:01:11]"
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "That's all for today.",
+      "timestamp": "[00:01:11 - 00:01:13]"
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "Thank you.",
+      "timestamp": "[00:01:13 - 00:01:14]"
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "Thank you.",
+      "timestamp": "[00:01:14 - 00:01:15]"
+    }
+  ],
+  "note": "Minutes generated automatically via AI Speech-to-Text, Diarization, and NLP Engine. Verified against reference transcript."
+}
